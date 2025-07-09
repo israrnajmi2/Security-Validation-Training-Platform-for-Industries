@@ -1,0 +1,245 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/12/2019 16:40
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-plus:before { content: "\f100"; }
+.flaticon-shield-workspace:before { content: "\f101"; }
+.flaticon-add-attribute:before { content: "\f102"; }
+.flaticon-history-capture:before { content: "\f103"; }
+.flaticon-size-arrow:before { content: "\f104"; }
+.flaticon-arrows:before { content: "\f105"; }
+.flaticon-shield-element:before { content: "\f106"; }
+.flaticon-vertical-resize:before { content: "\f107"; }
+.flaticon-horizontal-resize:before { content: "\f108"; }
+.flaticon-open-tab-2:before { content: "\f109"; }
+.flaticon-open-file:before { content: "\f10a"; }
+.flaticon-trafficlight-off:before { content: "\f10b"; }
+.flaticon-advance-search:before { content: "\f10c"; }
+.flaticon-standard-element-type:before { content: "\f10d"; }
+.flaticon-direct-mode:before { content: "\f10e"; }
+.flaticon-asset-workspace:before { content: "\f10f"; }
+.flaticon-search:before { content: "\f110"; }
+.flaticon-collapsing-four-arrows-interface-button-symbol:before { content: "\f111"; }
+.flaticon-map:before { content: "\f112"; }
+.flaticon-axis-arrows:before { content: "\f113"; }
+.flaticon-paper-clip:before { content: "\f114"; }
+.flaticon-shield:before { content: "\f115"; }
+.flaticon-objective-element:before { content: "\f116"; }
+.flaticon-unmap:before { content: "\f117"; }
+.flaticon-levels:before { content: "\f118"; }
+.flaticon-range:before { content: "\f119"; }
+.flaticon-organisational-element:before { content: "\f11a"; }
+.flaticon-file-download:before { content: "\f11b"; }
+.flaticon-perspective-element:before { content: "\f11c"; }
+.flaticon-save-history:before { content: "\f11d"; }
+.flaticon-shape:before { content: "\f11e"; }
+.flaticon-round:before { content: "\f11f"; }
+.flaticon-maximize2:before { content: "\f120"; }
+.flaticon-refresh-button:before { content: "\f121"; }
+.flaticon-anz-desktop:before { content: "\f122"; }
+.flaticon-user:before { content: "\f123"; }
+.flaticon-ruler:before { content: "\f124"; }
+.flaticon-source:before { content: "\f125"; }
+.flaticon-test-procedure:before { content: "\f126"; }
+.flaticon-active-role:before { content: "\f127"; }
+.flaticon-roles:before { content: "\f128"; }
+.flaticon-inclined-clip:before { content: "\f129"; }
+.flaticon-minimise2:before { content: "\f12a"; }
+.flaticon-ruler-desktop:before { content: "\f12b"; }
+.flaticon-protected-element:before { content: "\f12c"; }
+.flaticon-history:before { content: "\f12d"; }
+.flaticon-role-element:before { content: "\f12e"; }
+.flaticon-link:before { content: "\f12f"; }
+.flaticon-attribute-library:before { content: "\f130"; }
+.flaticon-perspective-attributes:before { content: "\f131"; }
+.flaticon-attribute:before { content: "\f132"; }
+.flaticon-groups:before { content: "\f133"; }
+.flaticon-squares:before { content: "\f134"; }
+.flaticon-gps-check:before { content: "\f135"; }
+.flaticon-gps:before { content: "\f136"; }
+.flaticon-shield-element-type:before { content: "\f137"; }
+.flaticon-unchecked:before { content: "\f138"; }
+.flaticon-unchecked-asset:before { content: "\f139"; }
+.flaticon-open-in-tab-2:before { content: "\f13a"; }
+.flaticon-replay:before { content: "\f13b"; }
+.flaticon-method-element-new-black:before { content: "\f13c"; }
+.flaticon-expression-mode:before { content: "\f13d"; }
+.flaticon-standard-workspace:before { content: "\f13e"; }
+.flaticon-download-2:before { content: "\f13f"; }
+.flaticon-projection:before { content: "\f140"; }
+.flaticon-medical:before { content: "\f141"; }
+.flaticon-search-dropdown:before { content: "\f142"; }
+.flaticon-expression-workspace:before { content: "\f143"; }
+.flaticon-eval:before { content: "\f144"; }
+.flaticon-paper-clip-2:before { content: "\f145"; }
+.flaticon-content-element-new-black:before { content: "\f146"; }
+.flaticon-content-element-new-white:before { content: "\f147"; }
+.flaticon-method-element-new-white:before { content: "\f148"; }
+.flaticon-fullscreen:before { content: "\f149"; }
+.flaticon-quadrant:before { content: "\f14a"; }
+.flaticon-sort:before { content: "\f14b"; }
+.flaticon-guidance:before { content: "\f14c"; }
+.flaticon-expression-element:before { content: "\f14d"; }
+.flaticon-turn-right:before { content: "\f14e"; }
+.flaticon-open-tab:before { content: "\f14f"; }
+.flaticon-standard-element:before { content: "\f150"; }
+.flaticon-business-provider-element:before { content: "\f151"; }
+.flaticon-minimise:before { content: "\f152"; }
+.flaticon-maximize:before { content: "\f153"; }
+.flaticon-filter-search:before { content: "\f154"; }
+.flaticon-remove:before { content: "\f155"; }
+.flaticon-eval-workspace:before { content: "\f156"; }
+.flaticon-perspective-rating:before { content: "\f157"; }
+.flaticon-help:before { content: "\f158"; }
+.flaticon-menu:before { content: "\f159"; }
+.flaticon-ingest-mapping:before { content: "\f15a"; }
+.flaticon-business-asset-type-element:before { content: "\f15b"; }
+.flaticon-octagon:before { content: "\f15c"; }
+.flaticon-arch-dekstop:before { content: "\f15d"; }
+.flaticon-desktop:before { content: "\f15e"; }
+.flaticon-worspace:before { content: "\f15f"; }
+.flaticon-show-map:before { content: "\f160"; }
+.flaticon-level:before { content: "\f161"; }
+.flaticon-role-workspace:before { content: "\f162"; }
+.flaticon-arrow:before { content: "\f163"; }
+.flaticon-expand:before { content: "\f164"; }
+.flaticon-column-view:before { content: "\f165"; }
+.flaticon-up-arrow:before { content: "\f166"; }
+.flaticon-unlink:before { content: "\f167"; }
+.flaticon-perspective:before { content: "\f168"; }
+.flaticon-business-workspace:before { content: "\f169"; }
+.flaticon-asset-type-element:before { content: "\f16a"; }
+.flaticon-asset-element:before { content: "\f16b"; }
+.flaticon-business-asset-element:before { content: "\f16c"; }
+.flaticon-business-element-type:before { content: "\f16d"; }
+.flaticon-business-element:before { content: "\f16e"; }
+.flaticon-provider-element:before { content: "\f16f"; }
+.flaticon-businesss-workspace:before { content: "\f170"; }
+.flaticon-organisational-workspace:before { content: "\f171"; }
+.flaticon-threat-control:before { content: "\f172"; }
+.flaticon-threat-element-type:before { content: "\f173"; }
+.flaticon-threat-workspace:before { content: "\f174"; }
+
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-threat-control, 
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-threat-workspace, 
+#shield_element_ruler_type_desk .headerWrapper .flaticon-threat-control,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-threat-control,
+#ruler_type_desk .headerWrapper .flaticon-threat-control,
+#bi_ruler_type_desk .headerWrapper .flaticon-threat-control,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-threat-workspace,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-threat-workspace,
+#ruler_type_desk .headerWrapper .flaticon-threat-workspace,
+#bi_ruler_type_desk .headerWrapper .flaticon-threat-workspace,
+.workspace-desktop-selection-wrapper .flaticon-threat-workspace,
+.workspace-desktop-selection-wrapper .flaticon-threat-control { 
+  color: #A4280D !important; 
+}
+
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-business-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-business-asset-element, 
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-business-provider-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-business-asset-type-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-business-workspace,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-business-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-business-element,
+#ruler_type_desk .headerWrapper .flaticon-business-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-business-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-business-asset-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-business-asset-element,
+#ruler_type_desk .headerWrapper .flaticon-business-asset-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-business-asset-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-business-provider-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-business-provider-element,
+#ruler_type_desk .headerWrapper .flaticon-business-provider-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-business-provider-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-business-asset-type-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-business-asset-type-element,
+#ruler_type_desk .headerWrapper .flaticon-business-asset-type-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-business-asset-type-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-business-workspace,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-business-workspace,
+#ruler_type_desk .headerWrapper .flaticon-business-workspace,
+#bi_ruler_type_desk .headerWrapper .flaticon-business-workspace,
+.workspace-desktop-selection-wrapper .flaticon-business-workspace, 
+.workspace-desktop-selection-wrapper .flaticon-business-element,
+.workspace-desktop-selection-wrapper .flaticon-business-asset-element,
+.workspace-desktop-selection-wrapper .flaticon-business-provider-element,
+.workspace-desktop-selection-wrapper .flaticon-business-asset-type-element { 
+  color: #EDC516 !important; 
+}
+
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-shield-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-asset-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-provider-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-asset-type-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-shield-workspace,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-shield-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-shield-element,
+#ruler_type_desk .headerWrapper .flaticon-shield-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-shield-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-asset-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-asset-element,
+#ruler_type_desk .headerWrapper .flaticon-asset-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-asset-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-provider-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-provider-element,
+#ruler_type_desk .headerWrapper .flaticon-provider-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-provider-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-asset-type-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-asset-type-element,
+#ruler_type_desk .headerWrapper .flaticon-asset-type-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-asset-type-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-shield-workspace,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-shield-workspace,
+#ruler_type_desk .headerWrapper .flaticon-shield-workspace,
+#bi_ruler_type_desk .headerWrapper .flaticon-shield-workspace,
+.workspace-desktop-selection-wrapper .flaticon-shield-workspace,
+.workspace-desktop-selection-wrapper .flaticon-shield-element,
+.workspace-desktop-selection-wrapper .flaticon-asset-element,
+.workspace-desktop-selection-wrapper .flaticon-provider-element,
+.workspace-desktop-selection-wrapper .flaticon-asset-type-element {
+   color: #3000FE !important;
+}
+
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-standard-element,
+.desktop:not(#shield_element_ruler_type_desk):not(#bi_shield_element_ruler_type_desk):not(#ruler_type_desk):not(#bi_ruler_type_desk) .flaticon-standard-workspace,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-standard-element,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-standard-element,
+#ruler_type_desk .headerWrapper .flaticon-standard-element,
+#bi_ruler_type_desk .headerWrapper .flaticon-standard-element,
+#shield_element_ruler_type_desk .headerWrapper .flaticon-standard-workspace,
+#bi_shield_element_ruler_type_desk .headerWrapper .flaticon-standard-workspace,
+#ruler_type_desk .headerWrapper .flaticon-standard-workspace,
+#bi_ruler_type_desk .headerWrapper .flaticon-standard-workspace,
+.workspace-desktop-selection-wrapper .flaticon-standard-workspace,
+.workspace-desktop-selection-wrapper .flaticon-standard-element{
+   color: #E6A115 !important;
+}

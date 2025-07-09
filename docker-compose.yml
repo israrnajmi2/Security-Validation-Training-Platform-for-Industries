@@ -1,0 +1,31 @@
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: genome
+    volumes:
+      - ./sqldump/23_nov_2024_itu_dcgi_no_user.sql:/docker-entrypoint-initdb.d/sqldump.sql # Initialize DB with SQL dump
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+  app:
+    build: .
+    container_name: spring-app
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/genome?useSSL=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,624 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 17/12/2019 16:40
+*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+  url("./Flaticon.woff2") format("woff2"),
+  url("./Flaticon.woff") format("woff"),
+  url("./Flaticon.ttf") format("truetype"),
+  url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-plus:before {
+  content: "\f100";
+}
+
+.flaticon-shield-workspace:before {
+  content: "\f101";
+}
+
+.flaticon-add-attribute:before {
+  content: "\f102";
+}
+
+.flaticon-history-capture:before {
+  content: "\f103";
+}
+
+.flaticon-size-arrow:before {
+  content: "\f104";
+}
+
+.flaticon-arrows:before {
+  content: "\f105";
+}
+
+.flaticon-shield-element:before {
+  content: "\f106";
+}
+
+.flaticon-vertical-resize:before {
+  content: "\f107";
+}
+
+.flaticon-horizontal-resize:before {
+  content: "\f108";
+}
+
+.flaticon-open-tab-2:before {
+  content: "\f109";
+}
+
+.flaticon-open-file:before {
+  content: "\f10a";
+}
+
+.flaticon-trafficlight-off:before {
+  content: "\f10b";
+}
+
+.flaticon-advance-search:before {
+  content: "\f10c";
+}
+
+.flaticon-standard-element-type:before {
+  content: "\f10d";
+}
+
+.flaticon-direct-mode:before {
+  content: "\f10e";
+}
+
+.flaticon-asset-workspace:before {
+  content: "\f10f";
+}
+
+.flaticon-search:before {
+  content: "\f110";
+}
+
+.flaticon-collapsing-four-arrows-interface-button-symbol:before {
+  content: "\f111";
+}
+
+.flaticon-map:before {
+  content: "\f112";
+}
+
+.flaticon-axis-arrows:before {
+  content: "\f113";
+}
+
+.flaticon-paper-clip:before {
+  content: "\f114";
+}
+
+.flaticon-shield:before {
+  content: "\f115";
+}
+
+.flaticon-objective-element:before {
+  content: "\f116";
+}
+
+.flaticon-unmap:before {
+  content: "\f117";
+}
+
+.flaticon-levels:before {
+  content: "\f118";
+}
+
+.flaticon-range:before {
+  content: "\f119";
+}
+
+.flaticon-organisational-element:before {
+  content: "\f11a";
+}
+
+.flaticon-file-download:before {
+  content: "\f11b";
+}
+
+.flaticon-perspective-element:before {
+  content: "\f11c";
+}
+
+.flaticon-save-history:before {
+  content: "\f11d";
+}
+
+.flaticon-shape:before {
+  content: "\f11e";
+}
+
+.flaticon-round:before {
+  content: "\f11f";
+}
+
+.flaticon-maximize2:before {
+  content: "\f120";
+}
+
+.flaticon-refresh-button:before {
+  content: "\f121";
+}
+
+.flaticon-anz-desktop:before {
+  content: "\f122";
+}
+
+.flaticon-user:before {
+  content: "\f123";
+}
+
+.flaticon-ruler:before {
+  content: "\f124";
+}
+
+.flaticon-source:before {
+  content: "\f125";
+}
+
+.flaticon-test-procedure:before {
+  content: "\f126";
+}
+
+.flaticon-active-role:before {
+  content: "\f127";
+}
+
+.flaticon-roles:before {
+  content: "\f128";
+}
+
+.flaticon-inclined-clip:before {
+  content: "\f129";
+}
+
+.flaticon-minimise2:before {
+  content: "\f12a";
+}
+
+.flaticon-ruler-desktop:before {
+  content: "\f12b";
+}
+
+.flaticon-protected-element:before {
+  content: "\f12c";
+}
+
+.flaticon-history:before {
+  content: "\f12d";
+}
+
+.flaticon-role-element:before {
+  content: "\f12e";
+}
+
+.flaticon-link:before {
+  content: "\f12f";
+}
+
+.flaticon-attribute-library:before {
+  content: "\f130";
+}
+
+.flaticon-perspective-attributes:before {
+  content: "\f131";
+}
+
+.flaticon-attribute:before {
+  content: "\f132";
+}
+
+.flaticon-groups:before {
+  content: "\f133";
+}
+
+.flaticon-squares:before {
+  content: "\f134";
+}
+
+.flaticon-gps-check:before {
+  content: "\f135";
+}
+
+.flaticon-gps:before {
+  content: "\f136";
+}
+
+.flaticon-shield-element-type:before {
+  content: "\f137";
+}
+
+.flaticon-unchecked:before {
+  content: "\f138";
+}
+
+.flaticon-unchecked-asset:before {
+  content: "\f139";
+}
+
+.flaticon-open-in-tab-2:before {
+  content: "\f13a";
+}
+
+.flaticon-replay:before {
+  content: "\f13b";
+}
+
+.flaticon-method-element-new-black:before {
+  content: "\f13c";
+}
+
+.flaticon-expression-mode:before {
+  content: "\f13d";
+}
+
+.flaticon-standard-workspace:before {
+  content: "\f13e";
+}
+
+.flaticon-download-2:before {
+  content: "\f13f";
+}
+
+.flaticon-projection:before {
+  content: "\f140";
+}
+
+.flaticon-medical:before {
+  content: "\f141";
+}
+
+.flaticon-search-dropdown:before {
+  content: "\f142";
+}
+
+.flaticon-expression-workspace:before {
+  content: "\f143";
+}
+
+.flaticon-eval:before {
+  content: "\f144";
+}
+
+.flaticon-paper-clip-2:before {
+  content: "\f145";
+}
+
+.flaticon-content-element-new-black:before {
+  content: "\f146";
+}
+
+.flaticon-content-element-new-white:before {
+  content: "\f147";
+}
+
+.flaticon-method-element-new-white:before {
+  content: "\f148";
+}
+
+.flaticon-fullscreen:before {
+  content: "\f149";
+}
+
+.flaticon-quadrant:before {
+  content: "\f14a";
+}
+
+.flaticon-sort:before {
+  content: "\f14b";
+}
+
+.flaticon-guidance:before {
+  content: "\f14c";
+}
+
+.flaticon-expression-element:before {
+  content: "\f14d";
+}
+
+.flaticon-turn-right:before {
+  content: "\f14e";
+}
+
+.flaticon-open-tab:before {
+  content: "\f14f";
+}
+
+.flaticon-standard-element:before {
+  content: "\f150";
+}
+
+.flaticon-business-provider-element:before {
+  content: "\f151";
+}
+
+.flaticon-minimise:before {
+  content: "\f152";
+}
+
+.flaticon-maximize:before {
+  content: "\f153";
+}
+
+.flaticon-filter-search:before {
+  content: "\f154";
+}
+
+.flaticon-remove:before {
+  content: "\f155";
+}
+
+.flaticon-eval-workspace:before {
+  content: "\f156";
+}
+
+.flaticon-perspective-rating:before {
+  content: "\f157";
+}
+
+.flaticon-help:before {
+  content: "\f158";
+}
+
+.flaticon-menu:before {
+  content: "\f159";
+}
+
+.flaticon-ingest-mapping:before {
+  content: "\f15a";
+}
+
+.flaticon-business-asset-type-element:before {
+  content: "\f15b";
+}
+
+.flaticon-octagon:before {
+  content: "\f15c";
+}
+
+.flaticon-arch-dekstop:before {
+  content: "\f15d";
+}
+
+.flaticon-desktop:before {
+  content: "\f15e";
+}
+
+.flaticon-worspace:before {
+  content: "\f15f";
+}
+
+.flaticon-show-map:before {
+  content: "\f160";
+}
+
+.flaticon-level:before {
+  content: "\f161";
+}
+
+.flaticon-role-workspace:before {
+  content: "\f162";
+}
+
+.flaticon-arrow:before {
+  content: "\f163";
+}
+
+.flaticon-expand:before {
+  content: "\f164";
+}
+
+.flaticon-column-view:before {
+  content: "\f165";
+}
+
+.flaticon-up-arrow:before {
+  content: "\f166";
+}
+
+.flaticon-unlink:before {
+  content: "\f167";
+}
+
+.flaticon-perspective:before {
+  content: "\f168";
+}
+
+.flaticon-business-workspace:before {
+  content: "\f169";
+}
+
+.flaticon-asset-type-element:before {
+  content: "\f16a";
+}
+
+.flaticon-asset-element:before {
+  content: "\f16b";
+}
+
+.flaticon-business-asset-element:before {
+  content: "\f16c";
+}
+
+.flaticon-business-element-type:before {
+  content: "\f16d";
+}
+
+.flaticon-business-element:before {
+  content: "\f16e";
+}
+
+.flaticon-provider-element:before {
+  content: "\f16f";
+}
+
+.flaticon-businesss-workspace:before {
+  content: "\f170";
+}
+
+.flaticon-organisational-workspace:before {
+  content: "\f171";
+}
+
+.flaticon-threat-control:before {
+  content: "\f172";
+}
+
+.flaticon-threat-element-type:before {
+  content: "\f173";
+}
+
+.flaticon-threat-workspace:before {
+  content: "\f174";
+}
+
+$font-Flaticon-plus: "\f100";
+$font-Flaticon-shield-workspace: "\f101";
+$font-Flaticon-add-attribute: "\f102";
+$font-Flaticon-history-capture: "\f103";
+$font-Flaticon-size-arrow: "\f104";
+$font-Flaticon-arrows: "\f105";
+$font-Flaticon-shield-element: "\f106";
+$font-Flaticon-vertical-resize: "\f107";
+$font-Flaticon-horizontal-resize: "\f108";
+$font-Flaticon-open-tab-2: "\f109";
+$font-Flaticon-open-file: "\f10a";
+$font-Flaticon-trafficlight-off: "\f10b";
+$font-Flaticon-advance-search: "\f10c";
+$font-Flaticon-standard-element-type: "\f10d";
+$font-Flaticon-direct-mode: "\f10e";
+$font-Flaticon-asset-workspace: "\f10f";
+$font-Flaticon-search: "\f110";
+$font-Flaticon-collapsing-four-arrows-interface-button-symbol: "\f111";
+$font-Flaticon-map: "\f112";
+$font-Flaticon-axis-arrows: "\f113";
+$font-Flaticon-paper-clip: "\f114";
+$font-Flaticon-shield: "\f115";
+$font-Flaticon-objective-element: "\f116";
+$font-Flaticon-unmap: "\f117";
+$font-Flaticon-levels: "\f118";
+$font-Flaticon-range: "\f119";
+$font-Flaticon-organisational-element: "\f11a";
+$font-Flaticon-file-download: "\f11b";
+$font-Flaticon-perspective-element: "\f11c";
+$font-Flaticon-save-history: "\f11d";
+$font-Flaticon-shape: "\f11e";
+$font-Flaticon-round: "\f11f";
+$font-Flaticon-maximize2: "\f120";
+$font-Flaticon-refresh-button: "\f121";
+$font-Flaticon-anz-desktop: "\f122";
+$font-Flaticon-user: "\f123";
+$font-Flaticon-ruler: "\f124";
+$font-Flaticon-source: "\f125";
+$font-Flaticon-test-procedure: "\f126";
+$font-Flaticon-active-role: "\f127";
+$font-Flaticon-roles: "\f128";
+$font-Flaticon-inclined-clip: "\f129";
+$font-Flaticon-minimise2: "\f12a";
+$font-Flaticon-ruler-desktop: "\f12b";
+$font-Flaticon-protected-element: "\f12c";
+$font-Flaticon-history: "\f12d";
+$font-Flaticon-role-element: "\f12e";
+$font-Flaticon-link: "\f12f";
+$font-Flaticon-attribute-library: "\f130";
+$font-Flaticon-perspective-attributes: "\f131";
+$font-Flaticon-attribute: "\f132";
+$font-Flaticon-groups: "\f133";
+$font-Flaticon-squares: "\f134";
+$font-Flaticon-gps-check: "\f135";
+$font-Flaticon-gps: "\f136";
+$font-Flaticon-shield-element-type: "\f137";
+$font-Flaticon-unchecked: "\f138";
+$font-Flaticon-unchecked-asset: "\f139";
+$font-Flaticon-open-in-tab-2: "\f13a";
+$font-Flaticon-replay: "\f13b";
+$font-Flaticon-method-element-new-black: "\f13c";
+$font-Flaticon-expression-mode: "\f13d";
+$font-Flaticon-standard-workspace: "\f13e";
+$font-Flaticon-download-2: "\f13f";
+$font-Flaticon-projection: "\f140";
+$font-Flaticon-medical: "\f141";
+$font-Flaticon-search-dropdown: "\f142";
+$font-Flaticon-expression-workspace: "\f143";
+$font-Flaticon-eval: "\f144";
+$font-Flaticon-paper-clip-2: "\f145";
+$font-Flaticon-content-element-new-black: "\f146";
+$font-Flaticon-content-element-new-white: "\f147";
+$font-Flaticon-method-element-new-white: "\f148";
+$font-Flaticon-fullscreen: "\f149";
+$font-Flaticon-quadrant: "\f14a";
+$font-Flaticon-sort: "\f14b";
+$font-Flaticon-guidance: "\f14c";
+$font-Flaticon-expression-element: "\f14d";
+$font-Flaticon-turn-right: "\f14e";
+$font-Flaticon-open-tab: "\f14f";
+$font-Flaticon-standard-element: "\f150";
+$font-Flaticon-business-provider-element: "\f151";
+$font-Flaticon-minimise: "\f152";
+$font-Flaticon-maximize: "\f153";
+$font-Flaticon-filter-search: "\f154";
+$font-Flaticon-remove: "\f155";
+$font-Flaticon-eval-workspace: "\f156";
+$font-Flaticon-perspective-rating: "\f157";
+$font-Flaticon-help: "\f158";
+$font-Flaticon-menu: "\f159";
+$font-Flaticon-ingest-mapping: "\f15a";
+$font-Flaticon-business-asset-type-element: "\f15b";
+$font-Flaticon-octagon: "\f15c";
+$font-Flaticon-arch-dekstop: "\f15d";
+$font-Flaticon-desktop: "\f15e";
+$font-Flaticon-worspace: "\f15f";
+$font-Flaticon-show-map: "\f160";
+$font-Flaticon-level: "\f161";
+$font-Flaticon-role-workspace: "\f162";
+$font-Flaticon-arrow: "\f163";
+$font-Flaticon-expand: "\f164";
+$font-Flaticon-column-view: "\f165";
+$font-Flaticon-up-arrow: "\f166";
+$font-Flaticon-unlink: "\f167";
+$font-Flaticon-perspective: "\f168";
+$font-Flaticon-business-workspace: "\f169";
+$font-Flaticon-asset-type-element: "\f16a";
+$font-Flaticon-asset-element: "\f16b";
+$font-Flaticon-business-asset-element: "\f16c";
+$font-Flaticon-business-element-type: "\f16d";
+$font-Flaticon-business-element: "\f16e";
+$font-Flaticon-provider-element: "\f16f";
+$font-Flaticon-businesss-workspace: "\f170";
+$font-Flaticon-organisational-workspace: "\f171";
+$font-Flaticon-threat-control: "\f172";
+$font-Flaticon-threat-element-type: "\f173";
+$font-Flaticon-threat-workspace: "\f174";

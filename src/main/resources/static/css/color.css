@@ -1,0 +1,135 @@
+header {
+    background: green;
+}
+
+.left-nav {
+    background: red;
+}
+
+.rgt-nav .text-contianer {
+    background: yellow;
+}
+
+/*::: login page :::*/
+
+.content .form-container {
+    background: blue;
+}
+
+.content .form-container .login-head {
+    background: yellow;
+}
+
+.content .form-container .login-head .logo a {
+    background: #000;
+}
+
+/*::: intro page :::*/
+
+.center-container {
+    background: gray;
+}
+
+.center-container .step-viewer-img {
+    background: yellow;
+}
+
+/*::: demo page :::*/
+
+.demo-width-container {
+    background: gray;
+}
+
+.demo-width-container .lft-content {
+    background: red;
+}
+
+.demo-width-container .rgt-content {
+    background: blue;
+}
+
+.demo-width-container .rgt-content .sheild-image-container {
+    background: green;
+}
+
+.sphreic-continer {
+    background: blue;
+}
+
+/*::: registartion page :::*/
+
+.center-sml-container {
+    background: red;
+}
+
+.center-xssml-container {
+    background: red;
+}
+
+/*::: color page :::*/
+
+.top-section {
+    background: yellow;
+}
+
+.bottom-section {
+    background: gray;
+}
+
+.left-image-section {
+    background: pink;
+}
+
+.sheild-1 {
+    background: #0d2710;
+}
+
+.sheild-2 {
+    background: #446622;
+}
+
+.sheild-3 {
+    background: #419431;
+}
+
+.top-section .rgt-section {
+    background: blue;
+}
+
+.top-section .rgt-section .right-img-1 {
+    background: orange;
+}
+
+.top-section .rgt-section .right-img-2 {
+    background: #3FBC52;
+}
+
+.top-section .rgt-section .right-img-3 {
+    background: #3CB5A9
+}
+
+.top-section .rgt-section .right-img-4 {
+    background: #2B8259;
+}
+
+.sheild-heading {
+    background: #70cfa2;
+}
+
+.center-container .image-container {
+    background: red;
+}
+
+/*::: define stage :::*/
+
+.fullwidth-container {
+    background: tomato;
+}
+
+.b-scope {
+    background: antiquewhite;
+}
+
+.b-tabs {
+    background: cadetblue;
+}

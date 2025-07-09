@@ -1,0 +1,3848 @@
+.container {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    background-color: #000;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header #sphericLogo {
+    width: 170px;
+    height: 30px;
+    display: inline-block;
+    margin: 9px 0 0 20px;
+}
+
+.eCurrencyLogo {
+    margin: 5px 7px 0 10px;
+    float: left;
+    height: 47px;
+}
+
+.eCurrencyLogoHeightFix {
+    height: 38px;
+}
+
+.logoAdjustment {
+    margin: 5px 7px 0 10px;
+}
+
+.whiteBgTriangle, .whiteBgInactiveTriangle {
+    background: #fff;
+    width: 7px;
+    float: left;
+    height: 17px;
+    position: relative;
+    left: -3px;
+}
+
+.mode.active {
+    font-weight: bold;
+    color: #000;
+}
+
+.r_conainer:hover .hotlink {
+    display: inline-block;
+}
+
+.r_conainer:hover .unmap-element {
+    display: inline-block;
+}
+
+.shieldTooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 8px 10px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    opacity: 1;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.shieldTooltip:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 8px;
+    border-color: transparent transparent transparent #000;
+    position: absolute;
+}
+
+.shieldTooltip span {
+    color: #000;
+}
+
+.shieldTooltip.hidden {
+    opacity: 0;
+}
+
+.boldSubscript {
+    font-weight: bold;
+    color: #5e5e5e;
+}
+
+.mode {
+    float: left;
+}
+
+.directory-index-value {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #5e5e5e;
+    margin-right: 12px;
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.viewHeaderName {
+    cursor: pointer;
+}
+
+.directoryView_ringList {
+    padding: 5px 0 60px 0;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.single-content-wrapper {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 48px);
+}
+
+.single-libraryView {
+    padding: 0 6px;
+}
+
+.centerPosition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-separator {
+    width: 8px;
+    background-color: #000;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    height: 100%;
+}
+
+.workspace-list-wrapper {
+    cursor: pointer;
+}
+
+.workspace-list-wrapper ul li span:after, .workspace-list-wrapper ul li span:before {
+    margin: 0 5px !important;
+}
+
+.workspace-list-wrapper ul li {
+    position: relative;
+    border: 1px solid #ededed;
+    width: 40px;
+    height: 40px;
+    color: #afaaaa;
+}
+
+.nav-header-icon-wrapper {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: default;
+    background-color: #fff;
+    border-top: 1px solid #fff;
+}
+
+.biView {
+    width: 35px;
+    height: 30px;
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.biView:hover {
+    opacity: 1;
+}
+
+.desktop-list-wrapper {
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+.desktop-list-container {
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#leftDesktopList {
+    float: left;
+}
+
+#rightDesktopList {
+    right: 0;
+}
+
+.desktop-list-container ul li {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    font-size: 13px;
+    border: 1px solid #ededed;
+    cursor: pointer;
+    color: #afaaaa;
+}
+
+.workspace-list-wrapper ul li:hover, .desktop-list-container ul li:hover {
+    background-color: #dddddd;
+    color: #7c7b7b;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.rightMenu {
+    margin: 10px 20px;
+}
+
+.menu:before {
+    font-size: 18px !important;
+    vertical-align: super;
+    color: white;
+    cursor: pointer;
+}
+
+.workspaceIcon {
+    display: inline-block;
+}
+
+.dtext-pipe {
+    font-family: 'noto_sansregular', arial, verdana, Helvetica, Sans-serif, serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+    margin-left: 6px;
+}
+
+.workspaceIcon:before {
+    color: #1d67bf;
+    font-size: 30px !important;
+    margin: 0 18px !important;
+}
+
+.menuVertical {
+    width: 670px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    background: white;
+}
+
+.menuLeft {
+    left: -670px;
+}
+
+.menuRight {
+    right: -670px;
+}
+
+.closeMenu:before {
+    color: black;
+}
+
+.closeMenu {
+    margin-top: 10px;
+}
+
+.menuLeft.menuOpen {
+    left: 0;
+}
+
+.menuRight.menuOpen {
+    right: 0;
+}
+
+.menuPush {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.menuBar {
+    position: fixed;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.headerName {
+    color: #1d67bf;
+    font-size: 12px;
+    margin: 15px 20px;
+}
+
+.leftMenuList {
+    width: 35%;
+}
+
+.rightMenuList {
+    width: 65%;
+}
+
+.menuHeading {
+    width: 90%;
+    font-size: 25px;
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.menuListWrapper {
+    margin-top: 30px;
+}
+
+.workspaceList {
+    width: 90%;
+    padding: 5px 0;
+    margin: 5px 0 5px 20px;
+    font-size: 15px;
+    color: black;
+    border: 1px transparent solid;
+    cursor: pointer;
+}
+
+.leftWorkspaceList.selected {
+    box-shadow: 0 2px 6px rgba(33, 33, 33, .2);
+    background-color: #9484b8;
+    color: #000;;
+}
+
+.rightWorkspaceList.selected {
+    box-shadow: 0 2px 6px rgba(33, 33, 33, .2);
+    background-color: #43aca5;
+    color: #000;
+}
+
+.leftDesktopList.activeClass {
+    box-shadow: 0 2px 6px rgba(33, 33, 33, .2);
+    background-color: #9484b8;
+    color: #000;
+}
+
+.rightDesktopList.activeClass {
+    box-shadow: 0 2px 6px rgba(33, 33, 33, .2);
+    background-color: #43aca5;
+    color: #000;
+}
+
+.workspaceName {
+    vertical-align: 3px;
+}
+
+.desktopActiveClass {
+    box-shadow: 0 2px 6px rgba(33, 33, 33, .2);
+    color: #1d67bf;
+}
+
+.desktop {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.desktop-wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 40px);
+    float: left;
+}
+
+.desktop-container {
+    width: calc(100% - 80px);
+    height: 100%;
+}
+
+.bi-content-wrapper {
+    position: absolute;
+    width: calc(50% + 4px);
+    height: calc(100% - 48px);
+    right: 0;
+}
+
+.bi-desktop-container {
+    width: calc(100% - 88px) !important;
+    right: 0;
+}
+
+.bi-desktop-container .desktop-header {
+    background-color: #43aca5;
+}
+
+.panel-header-container:first-child.biview {
+    background-color: #04b5aa;;
+}
+
+.panel-header-container:first-child.singleview {
+    border-left: 1px solid white;
+    background-color: #bdade2;
+}
+
+.panel-header-container.singleview {
+    border-left: 1px solid white;
+    background-color: #d3cae8;
+}
+
+.single-desktop-container .desktop-selector-container {
+    background-color: #d3cae8;
+}
+
+.single-desktop-container .desktop-anchorSearchSelector-container {
+    background-color: #f5f3f8 !important;
+    clear:both;
+}
+
+.bi-desktop-container .desktop-anchorSearchSelector-container {
+    background-color: #d8eceb !important;
+    clear: both;
+}
+
+.single-desktop-container .desktop-searchSelector-container {
+    border-left: 1px solid white;
+    background-color: #f5f3f8 !important;
+}
+
+.bi-desktop-container .desktop-searchSelector-container {
+    background-color: #d8eceb !important;
+}
+
+.desktop-selector-container, .panel-header-container {
+    font-size: 11px;
+    letter-spacing: 1px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+.panel-header {
+    overflow: hidden;
+    max-width: 70%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 10px;
+    padding: 13px 0;
+    letter-spacing: 3px;
+}
+
+.desktop-header {
+    height: 40px;
+    background-color: #9484b8;
+    border-bottom: 1px solid #ededed;
+}
+
+.security-head {
+    background-color: #3000FE !important;
+}
+
+.standards-head {
+    background-color: #E6A115 !important;
+}
+
+.target-head {
+    background-color: #EDC516 !important;
+}
+
+.threat-head {
+    background-color: #A4280D !important;
+}
+
+
+#sh_sch_desk .linkDtext, #bi_sh_sch_desk .linkDtext,
+#classification_map_mode_desk .linkDtext, #bi_classification_map_mode_desk .linkDtext,
+#provider_desk .linkDtext, #bi_provider_desk .linkDtext,
+#asset_type_desk .linkDtext, #bi_asset_type_desk .linkDtext,
+#asset_type_map_mode_desk .linkDtext, #bi_asset_type_map_mode_desk .linkDtext,
+#asset_map_mode_desk .linkDtext, #bi_asset_map_mode_desk .linkDtext,
+#asset_desk .linkDtext, #bi_asset_desk .linkDtext
+{
+    color: #3000FE !important;
+}
+
+#std_sch_desk .linkDtext, #bi_std_sch_desk .linkDtext,
+#standard_map_mode_desk .linkDtext, #bi_standard_map_mode_desk .linkDtext
+{
+    color: #E6A115 !important;
+}
+
+#threat_sch_desk .linkDtext, #bi_threat_sch_desk .linkDtext,
+#threat_map_mode_desk .linkDtext, #bi_threat_map_mode_desk .linkDtext
+{
+    color: #A4280D !important;
+}
+
+#business_sch_desk .linkDtext, #bi_business_sch_desk .linkDtext,
+#business_map_mode_desk .linkDtext, #bi_business_map_mode_desk .linkDtext,
+#business_provider_desk .linkDtext, #bi_business_provider_desk .linkDtext,
+#business_asset_type_desk .linkDtext, #bi_business_asset_type_desk .linkDtext,
+#business_asset_type_map_mode_desk .linkDtext, #bi_business_asset_type_map_mode_desk .linkDtext,
+#business_asset_desk .linkDtext, #bi_business_asset_desk .linkDtext,
+#business_asset_map_mode_desk .linkDtext, #bi_business_asset_map_mode_desk .linkDtext
+{
+    color: #EDC516 !important;
+}
+
+
+
+
+#sh_sch_desk .desktop-selector-container, #bi_sh_sch_desk .desktop-selector-container,
+#classification_map_mode_desk .desktop-selector-container, #bi_classification_map_mode_desk .desktop-selector-container,
+#provider_desk .desktop-selector-container, #bi_provider_desk .desktop-selector-container,
+#asset_type_desk .desktop-selector-container, #bi_asset_type_desk .desktop-selector-container,
+#asset_type_map_mode_desk .desktop-selector-container, #bi_asset_type_map_mode_desk .desktop-selector-container,
+#asset_map_mode_desk .desktop-selector-container, #bi_asset_map_mode_desk .desktop-selector-container,
+#asset_desk .desktop-selector-container, #bi_asset_desk .desktop-selector-container,
+
+#sh_sch_desk .panel-header-container, #bi_sh_sch_desk .panel-header-container,
+#classification_map_mode_desk .panel-header-container, #bi_classification_map_mode_desk .panel-header-container,
+#provider_desk .panel-header-container, #bi_provider_desk .panel-header-container,
+#asset_type_desk .panel-header-container, #bi_asset_type_desk .panel-header-container,
+#asset_type_map_mode_desk .panel-header-container, #bi_asset_type_map_mode_desk .panel-header-container,
+#asset_map_mode_desk .panel-header-container, #bi_asset_map_mode_desk .panel-header-container,
+#asset_desk .panel-header-container, #bi_asset_desk .panel-header-container
+
+{
+    background-color: #9F9FFF !important;
+}
+
+#std_sch_desk .desktop-selector-container, #bi_std_sch_desk .desktop-selector-container,
+#standard_map_mode_desk .desktop-selector-container, #bi_standard_map_mode_desk .desktop-selector-container,
+
+#std_sch_desk .panel-header-container, #bi_std_sch_desk .panel-header-container,
+#standard_map_mode_desk .panel-header-container, #bi_standard_map_mode_desk .panel-header-container
+{
+    background-color: #FFD393 !important;
+}
+
+#threat_sch_desk .desktop-selector-container, #bi_threat_sch_desk .desktop-selector-container,
+#threat_map_mode_desk .desktop-selector-container, #bi_threat_map_mode_desk .desktop-selector-container,
+#threat_sch_desk .panel-header-container, #bi_threat_sch_desk .panel-header-container,
+#threat_map_mode_desk .panel-header-container, #bi_threat_map_mode_desk .panel-header-container
+{
+    background-color: #FFA7A7 !important;
+}
+
+#business_sch_desk .desktop-selector-container, #bi_business_sch_desk .desktop-selector-container,
+#business_map_mode_desk .desktop-selector-container, #bi_business_map_mode_desk .desktop-selector-container,
+#business_provider_desk .desktop-selector-container, #bi_business_provider_desk .desktop-selector-container,
+#business_asset_type_desk .desktop-selector-container, #bi_business_asset_type_desk .desktop-selector-container,
+#business_asset_type_map_mode_desk .desktop-selector-container, #bi_business_asset_type_map_mode_desk .desktop-selector-container,
+#business_asset_desk .desktop-selector-container, #bi_business_asset_desk .desktop-selector-container,
+#business_asset_map_mode_desk .desktop-selector-container, #bi_business_asset_map_mode_desk .desktop-selector-container,
+
+#business_sch_desk .panel-header-container, #bi_business_sch_desk .panel-header-container,
+#business_map_mode_desk .panel-header-container, #bi_business_map_mode_desk .panel-header-container,
+#business_provider_desk .panel-header-container, #bi_business_provider_desk .panel-header-container,
+#business_asset_type_desk .panel-header-container, #bi_business_asset_type_desk .panel-header-container,
+#business_asset_type_map_mode_desk .panel-header-container, #bi_business_asset_type_map_mode_desk .panel-header-container,
+#business_asset_desk .panel-header-container, #bi_business_asset_desk .panel-header-container,
+#business_asset_map_mode_desk .panel-header-container, #bi_business_asset_map_mode_desk .panel-header-container
+{
+    background-color: #FFEEB9 !important;
+}
+
+
+/* .security-head .headerIcon:before, .security-head .headerLabel, .security-head .subscriptIcon:before, .threat-head .headerIcon:before, .threat-head .headerLabel {
+    color: #FFF !important;
+} */
+.desktop-header .headerIcon:before, .desktop-header .headerLabel, .desktop-header .subscriptIcon:before {
+    color: #FFF !important;
+}
+
+.desktop-header .headerLabel {
+    overflow: hidden;
+    max-width: 40%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 11px;
+    padding: 15px 0 11px 0;
+    letter-spacing: 1px;
+}
+
+.desktop-header .headerIcon:before {
+    color: #000;
+    font-size: 16px !important;
+}
+
+.desktop-header .headerIcon {
+    position: relative;
+    bottom: 12px;
+    padding: 13px 12px 9px 0;
+}
+
+.headerIcon.flaticon-expression-workspace:before {
+    font-size: 19px !important;
+}
+
+.headerIcon.flaticon-eval-workspace:before {
+    font-size: 19px !important;
+}
+
+.half-desktop-list {
+    width: 50% !important;
+}
+
+.full-desktop {
+    width: 100%;
+    height: 100%;
+}
+
+.half-desktop {
+    width: 50% !important;
+    height: calc(100% - 40px) !important;
+    border: 0.2px solid #ededed;
+}
+
+.innerDesktop {
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.left-desktop {
+    left: 0;
+}
+
+.right-desktop {
+    right: 0;
+}
+
+.top-desktop {
+    top: 41px;
+    width: 50%;
+    height: calc(50% - 41px) !important;
+}
+
+.bottom-desktop {
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.bottom-full-desktop {
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.horizontal-half-desktop {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.vertical-half-desktop {
+    top: 41px;
+    bottom: 0;
+    height: calc(100% - 41px) !important;
+    width: 50%;
+}
+
+.desktop-selector-container {
+    height: 40px;
+    background-color: #bdade2;
+    width: 100%;
+}
+
+#popOverlay .desktop-selector-container.singleview {
+    height: 40px;
+}
+
+#popOverlay .panel-header-container:first-child.singleview {
+    border-left: 1px solid #bdade2;
+    background-color: #bdade2;
+}
+
+#popOverlay .desktop-selector-container.biview {
+    height: 40px;
+    background-color: beige;
+}
+
+.directory-text-icon {
+    padding-left: 5px;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 3px;
+    left: 15px;
+    vertical-align: 4px;
+/ / display: none;
+    visibility: hidden;
+    transition: all 500ms ease-in;
+}
+
+.directory-text-icon:before {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+/*drop Down starts here*/
+.selector {
+    color: #000;
+    float: left;
+}
+
+.selector .hotLinkWrapper {
+    vertical-align: top;
+}
+
+.showCheckBoxItem {
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.searchWithMappedElements {
+    position: absolute;
+    opacity: 0.3;
+}
+
+.selectorLabel {
+    color: #000;
+    border: none;
+    padding: 15px 11px 11px 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.selectorLabel span {
+    display: inline-block;
+}
+
+.enableDisableSelector, .enableDisableBiSelector, .stdEnableDisableSelector, .biStdEnableDisableSelector, .assetEnableDisableSelector, .biAssetEnableDisableSelector {
+    cursor: pointer;
+    color: #797979;
+}
+
+.enableDisableSelector.active, .enableDisableBiSelector.active, .stdEnableDisableSelector.active, .biStdEnableDisableSelector.active, .assetEnableDisableSelector.active, .biAssetEnableDisableSelector.active {
+    color: #000;
+}
+
+.desktop-selector-dropdown.equalBy3 {
+    /* max-width: 28%; */
+}
+
+.desktop-selector-dropdown.equalBy1 {
+    min-width: calc(100% - 1200px);
+     max-width: 80%;
+}
+
+.desktop-selector-dropdown.equalBy2 {
+    /* max-width: 48%; */
+}
+
+.desktop-selector-dropdown.equalBy4 {
+    /* max-width: 25%; */
+}
+
+.selectorCheckboxWrapper.equalBy4 {
+    /* max-width: 24%; */
+}
+
+.desktop-selector-dropdown-content {
+    position: absolute;
+    overflow: auto;
+    top: 100%;
+    /*left:0 !important;*/
+    z-index: 1;
+    width: auto;
+    /* max-width: 370px; */
+    max-height: 235px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .175);
+}
+
+.desktop-selector-dropdown-content li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px;
+    font-size: 11px;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.perspective-drowdown-content {
+    position: absolute !important;
+    right: 0 !important;
+    max-height: 200px !important;
+}
+
+.perspectiveSelectorEvaluationItem {
+    color: #677581 !important;
+}
+
+.desktop-selector-dropdown-content li:hover {
+    background-color: #DCDCDC;
+}
+
+/*drop Down ends here*/
+
+/*data View Directory View starts here*/
+.dataView-directoryView {
+    border: 1px solid #ededed;
+    padding: 10px;
+    font-size: 11px !important;
+}
+
+.dataView-content {
+    overflow: auto;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+/*data View Directory View ends here */
+
+.treeContainerWithDoubleRow {
+    position: relative !important;
+    width: 100% !important;
+    height: calc(100% - 120px) !important;
+}
+
+.treeContainer {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.treeContainerWithOutRow {
+    position: relative !important;
+    width: 100% !important;
+    height: calc(100% - 40px) !important;
+}
+
+.treeContainerExpressionView {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 85px);
+}
+
+.treeContainerAssociationView {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 120px);
+}
+
+#single_dataview_container {
+    position: relative;
+}
+
+.descriptionheading {
+    display: inline-block;
+    color: #000;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 20px;
+    font-size: 12px;
+}
+
+.descriptionContent {
+    margin: 0 0 5px 30px;
+    padding: 0;
+    font-size: 11px;
+    white-space: pre-wrap;
+}
+
+.tree_structure_parent {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    position: absolute;
+}
+
+.tree_structure_parent ul li {
+    /* cursor: pointer; */
+    float: left;
+    min-width: calc(100% - 28px);
+    margin-left: 28px;
+    border-left: 1px dotted #979797;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.tree_structure_parent_schema {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    position: absolute;
+}
+
+.tree_structure_parent_schema ul .element_li {
+    cursor: pointer;
+    float: left;
+    min-width: calc(100% - 21px);
+    margin-left: 200px;
+    border-left: 1px dotted #979797;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.tree_structure_parent_schema ul .element_li_root {
+    cursor: pointer;
+    float: left;
+    min-width: calc(100% - 21px);
+    margin-left: 21px;
+    border-left: 1px dotted #979797;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.tree_structure_parent_schema .first_li.noBorder {
+    margin-left: 21px !important;
+}
+
+.tree_structure_parent_schema .first_li {
+    margin-left: 30px !important;
+}
+
+.tree_structure_parent_dataView {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    position: relative !important;
+}
+
+.dataView-description {
+    padding: 10px 0 5px 21px;
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    margin: 13px 0 0 10px;
+}
+
+.create-shield-element-container-expressionView {
+    font-size: 12px;
+    overflow: auto;
+    padding: 0 5px 5px 5px;
+    height: calc(100% - 80px);
+}
+
+.data-container-expressionView {
+    font-size: 12px;
+    overflow: auto;
+    padding: 0 5px 5px 5px;
+    height: calc(100% - 40px);
+}
+
+.create-shield-element-container {
+    font-size: 12px;
+    padding: 10px;
+    height: calc(100% - 80px);
+    overflow: auto;
+}
+
+.create-shield-element-container .create-shield-field {
+    margin: 10px;
+}
+
+.create-shield-element-container li label {
+    margin-right: 10px;
+    width: 30%;
+    display: inline-block;
+}
+
+.create-shield-element-container li textarea {
+    margin-right: 10px;
+    width: 50%;
+    resize: none;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.create-shield-element-container li .guidanceView {
+    margin-right: 10px;
+    width: 60% !important;
+    resize: none;
+    height: 100px !important;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.create-shield-element-container-expressionView .create-shield-field {
+    padding: 5px;
+}
+
+.create-shield-element-container-expressionView li textarea {
+    margin: 0 10px;
+    resize: none;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+    width: 90%;
+    height: 20px;
+}
+
+.create-shield-element-container .create-shield-field input {
+    margin-right: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+.create-shield-element-container .create-shield-field .colorInput {
+    width: 50px;
+    height: 23px;
+    padding: 1px 2px;
+}
+
+.create-shield-element-container .create-shield-field input.uneditable {
+    cursor: not-allowed;
+    background-color: #ededed;
+}
+
+.create-shield-element-container .create-shield-field input.hierarchySelected {
+    cursor: pointer;
+}
+
+.hierarchySelector:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.hierarchyDropDown {
+    margin-right: 10px;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #c6c6c6;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 31%;
+    z-index: 100;
+    background-color: #f5f5f5;
+    max-height: 200px;
+    overflow: auto;
+    padding: 5px;
+}
+
+.hierarchyDropDown ul li {
+    cursor: pointer;
+    float: left;
+    min-width: calc(100% - 21px);
+    margin-left: 21px;
+    border-left: 1px dotted #979797;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.hierarchyDropDown .whiteBgTriangle, .hierarchyDropDown .whiteBgInactiveTriangle {
+    background-color: #f5f5f5;
+}
+
+.canDeliverNo, .mappableToExpressionNo {
+    margin-left: 20px;
+}
+
+.canDeliverClick:hover, .mappableToExpressionClick:hover {
+    cursor: pointer;
+}
+
+.canDeliverYes.active, .canDeliverNo.active, .mappableToExpressionYes.active, .mappableToExpressionNo.active {
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+}
+
+.headerActionButton {
+    float: right;
+    line-height: 39px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.actionButton {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerActionButton:hover, .actionButton:hover {
+    color: #000;
+}
+
+.selectAllAttributeFromLibrary-wrapper {
+    padding: 15px 0;
+    font-size: 9px;
+    display: inline-block;
+}
+
+.selectAllAttributeFromLibrary {
+    cursor: pointer;
+}
+
+.singleView-desktop {
+    width: calc(50% - 4px) !important;
+}
+
+/* custom alertBox starts here*/
+.alertBoxWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.alertBox {
+    width: 400px;
+    position: absolute;
+    left: calc(50% - 200px);
+}
+
+.alertHeader {
+    height: 30px;
+    background: #fff;
+    border-radius: 2px 2px 0 0;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px 0;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6);;
+}
+
+.alertMsgBox {
+    height: 150px;
+    background: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 0 0 10px 10px;
+    color: #222;
+    padding: 10px;
+}
+
+.alertMsg {
+    display: inline-block;
+    height: 100px;
+    width: 380px;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.alertButton {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* custom alertBox ends here*/
+
+/* position classes starts here */
+.top-left-quarter-position {
+    position: absolute;
+    top: 40px;
+    width: 50%;
+    height: calc(50% - 20px);
+}
+
+.top-right-quarter-position {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 50%;
+    height: calc(50% - 20px);
+}
+
+.bottom-left-quarter-position {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: calc(50% - 20px)
+}
+
+.bottom-right-quarter-position {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: calc(50% - 20px);
+}
+
+.left-half-position {
+    position: absolute;
+    top: 40px;
+    width: 50%;
+    height: calc(100% - 40px);
+}
+
+.right-half-position {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 50%;
+    height: calc(100% - 40px);
+}
+
+.top-half-position {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: calc(50% - 20px);
+}
+
+.bottom-half-position {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(50% - 20px);
+}
+
+.full-screen-position {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+/* position classes ends here */
+
+.directory-text-icon.active {
+    visibility: visible;
+    color: #000 !important;
+    display: inline-block;
+}
+
+.ResizingIcon:before {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px !important;
+    margin: 12px 0 0 5px !important;
+}
+
+.fullScreen {
+    border: 11px solid rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    position: absolute;
+    top: 40px;
+    width: calc(100%);
+    height: calc(100% - 40px);
+    z-index: 99;
+}
+
+.findSourceHotlink {
+    color: #677581;;
+}
+
+.findSourceHotlink:hover {
+    color: #000;;
+}
+
+.workspace-selected-icon.headerIcon:before {
+    color: #000;
+    font-size: 20px;
+}
+
+.desktop-selected-icon.headerIcon:before {
+    color: #000;
+    font-size: 20px;
+}
+
+.desktopList.flaticon-arrow:before {
+    font-size: 20px !important;
+}
+
+.workspace.ss-tick {
+    font-size: 20px !important;
+}
+
+/* expression view starts here */
+.expViewContainer {
+    margin: 0 8px;
+    min-width: 1500px;
+    height: calc(100% - 56px);
+}
+
+.expViewWrapper {
+    position: relative;
+    width: calc(100% / 4);
+    display: inline-block;
+    float: left;
+    border: 1px solid #ededed;
+    min-width: 200px;
+}
+
+.expViewWrapperWithHeight {
+    height: 100%;
+}
+
+.expressionViewHeading {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid #ededed;
+    padding: 5px 0;
+}
+
+.expressionViewHeading.singleview {
+    background-color: #bdade2;
+}
+
+.expressionViewHeading.biview {
+    background-color: #a0cecb;
+}
+
+.expressionViewHeader {
+    border-bottom: 1px solid #ededed;
+    width: 100%;
+    height: 25px;
+}
+
+.expressionViewHeader.singleview {
+    background-color: #bdade2;
+}
+
+.expressionViewHeader.biview {
+    background-color: #a0cecb;
+}
+
+.expressionClear {
+    margin: 5px 10px 0 0;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.expressionClear:hover {
+    color: #000;
+}
+
+.expViewli {
+    color: #000;
+    display: block;
+    font-size: 12px;
+}
+
+.selectorCheckboxText {
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.assetCheckbox, .showUsersCheckbox {
+    cursor: pointer;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
+.checkbox-map {
+    position: relative;
+    float: left;
+    padding-right: 6px;
+}
+
+.treeContainerExpAssociationView .checkbox-map {
+    position: relative;
+}
+
+.ruler-img-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.97);
+    margin-top: -1px;
+    animation: zoom 0.3s ease-in-out;
+}
+
+.ruler-img-modal img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.ruler-img-closeBtn {
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.ruler-img-closeBtn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.gold-background {
+    background-color: #EEE;
+    padding: 5px;
+}
+
+.tooltip {
+    cursor: pointer;
+}
+
+.checkbox-map .tooltip {
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 102%;
+    left: 65px;
+    margin-left: -60px;
+    font-size: 12px;
+}
+
+.tooltip .icon, .tooltip .icons {
+    display: block;
+    line-height: 14px;
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+.tooltip .icon:before {
+    font-size: 15px !important;
+    margin: 0 6px 0 3px !important;
+}
+
+.tooltip .icons:before {
+    font-size: 15px !important;
+    margin: 0 6px 0 4px !important;
+}
+
+.colorAnimation {
+    animation: changeColor 2s linear;
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+.findSourceHotlink {
+    cursor: pointer;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: 14px;
+    margin-right: 8px;
+    color: #000;
+}
+
+.findSourceHotlink:before {
+    font-size: 17px !important;
+    margin-left: 0;
+}
+
+.AssociationIcon:before {
+    font-size: 18px !important;
+    vertical-align: 9px;
+    color: #000;
+    margin-right: 8px;
+}
+
+.ExpressionViewIcon:before {
+    font-size: 18px !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.pivot-view-menu {
+    position: relative;
+    display: inline-block;
+    vertical-align: 2px;
+}
+
+.pivot-view-menu:before {
+    margin-left: 10px !important;
+    font-size: 10px !important;
+    cursor: pointer;
+}
+
+.pivotOptions {
+    position: absolute;
+    z-index: 100;
+    max-height: 200px;
+    overflow: auto;
+    background-color: white;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.pivotli {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px;
+    font-size: 11px;
+    color: black;
+    min-width: 100% !important;
+    margin: 0 !important;
+    border-left: 0 !important;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.pivotli:hover {
+    background-color: #DCDCDC;
+}
+
+.activePivotLi {
+    background-color: #DCDCDC;
+}
+
+.treeContainerPivotView {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+.pivotViewIcon:before {
+    font-size: 20px !important;
+    color: #000;
+}
+
+.expressionViewSelector {
+    cursor: pointer;
+}
+
+.expressionChildViewText.active {
+    color: #000;
+}
+
+.expressionChildViewText.selected {
+    color: #000;
+    font-weight: bold;
+}
+
+.labelText {
+    color: #000;
+    border: none;
+    line-height: 39px;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 11px;
+    margin-right: 5px;
+    float: left;
+}
+
+.createRootText {
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.d-text.active {
+    color: #000;
+}
+
+.d-text-label {
+    background-color: #edededa3;
+    color: #c3c3c3;
+    padding: 0 4px 0 0;
+    width: 74px;
+    margin-left: 0 !important;
+}
+
+.d-text-refId{
+    /*display: none;*/
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.associationViewDesktop .d-text.param1 {
+    color: brown;
+}
+
+.associationViewDesktop .d-text.param2 {
+    color: #0c7cac;
+}
+
+.associationViewDesktop .d-text.param3 {
+    color: #4F258D;
+}
+
+.associationViewDesktop .d-text.param4 {
+    color: #6d6c6c;
+}
+
+.assoc-exp-mode {
+    cursor: pointer;
+    color: #797979;
+    margin: 0 5px;
+}
+
+.assoc-exp-mode.active {
+    cursor: pointer;
+    color: #000000;
+}
+
+.flaticon-expression-element.assocView {
+    margin-top: -7px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.flaticon-expression-element.assocView:before {
+    font-size: 9px;
+}
+
+.linkDtext {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    color: #96989a;
+    padding: 0 4px;
+    float: left;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+/* .linkDtextVerticalLine {
+    border-left: 4px solid #000;
+    height: 11px;
+    width: 8px;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+} */
+
+.expandDv:before, .collapseDv:before {
+    font-size: 11px !important;
+    margin-left: 10px !important;
+}
+
+.non-active {
+    color: #677581 !important;
+    cursor: default !important;
+}
+
+.non-active:before {
+    color: #677581 !important;
+    cursor: default !important;
+}
+
+.desktop-selector-container .search-keyword {
+    padding: 12px 6px 13px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+
+.searchSelector, .perspectiveModeSelector, .customSearchSelector {
+    cursor: pointer;
+    color: #797979;
+}
+
+.searchSelector.active, .perspectiveModeSelector.active, .customSearchSelector.active {
+    color: #000;
+}
+
+.viewsMenuIcon:before {
+    display: inline-block;
+    margin: 13px 0 13px 10px !important;
+    font-size: 14px !important;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
+
+.viewsDropDownContent {
+    position: absolute;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    color: black;
+    z-index: 2;
+    width: auto;
+    max-height: 500px;
+    right: 0;
+    top: 100%;
+}
+
+.viewsDropDown {
+    width: 100px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 5px 0 0;
+}
+
+.viewsDropDown:before {
+    content: attr(count);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}
+
+.viewsDropDownContent li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px;
+    font-size: 11px;
+    width: 300px;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+.viewsDropDownContent li:hover {
+    background-color: #DCDCDC;
+}
+
+.closeViewFromMenu:before {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 8px;
+}
+
+.clearSearch, .clearSearchBox {
+    cursor: pointer;
+    float: right;
+    margin: 12px 0 0 0;
+    font-weight: bold;
+}
+
+.clearSearchBox {
+    margin: 10px 0 0 0;
+}
+
+.createPerspective {
+    cursor: pointer;
+    float: left;
+    padding: 14px 0 0 15px;
+    font-weight: bold;
+}
+
+.clearSearch:before, .clearSearchBox:before, .expressionClear:before {
+    font-size: 14px !important;
+}
+
+.clearSearch:hover, .createPerspective:hover {
+    color: #000;
+}
+
+.menuText {
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menuIcon:before {
+    margin: 0 5px 0 2px !important;
+    vertical-align: -2px;
+}
+
+.headerColorAnimation {
+    /* animation: changeColorAnimation 5s linear; */
+}
+
+.elementListUl {
+    background-color: #fbfafc;
+    padding: 5px;
+    margin-left: 43px;
+    overflow: auto;
+    width: max-content;
+}
+
+@-moz-document url-prefix() {
+    .elementListUl {
+        background-color: #fbfafc;
+        padding: 5px;
+        margin-left: 43px;
+        overflow: auto;
+        width: -moz-max-content;
+    }
+}
+
+.elementListItem {
+    display: inline-block !important;
+    width: 200px !important;
+    padding: 2px;
+    border-left: 1px dotted #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.elementListItem > div {
+    white-space: nowrap;
+}
+
+.elementListItemLabel {
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* position: fixed; */
+    float: left;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.elementListItemLabelwithmaxWidth {
+    max-width: 90px !important;
+}
+
+@keyframes changeColorAnimation {
+    from {
+        background-color: #7ba8df;
+    }
+    to {
+        background-color: #bdade2;
+    }
+}
+
+.biHeaderColorAnimation {
+    /* animation: changeColorBiAnimation 5s linear; */
+}
+
+@keyframes changeColorBiAnimation {
+    from {
+        background-color: #28b378;
+    }
+    to {
+        background-color: #a0cecb;
+    }
+}
+
+#popUp {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+#popOverlay {
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    bottom: 10%;
+    position: absolute;
+}
+
+#popOverlay-small {
+    top: 30%;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+    position: absolute;
+}
+
+.createElementType:hover {
+    cursor: pointer;
+}
+
+.createElementType {
+    font-weight: bold;
+    display: inline-block;
+    border-left: 1px dotted #000;
+    padding: 2px;
+    overflow: auto;
+    height: 21px;
+}
+
+.stdSchemaShieldSelectorItem, .schemaShieldSelectorItem, .biSchemaShieldSelectorItem, .biStdSchemaShieldSelector {
+    padding: 11px !important;
+}
+
+.schemaShieldSelectorItem:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.biStdSchemaShieldSelector:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.biSchemaShieldSelectorItem:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.stdSchemaShieldSelectorItem:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.sourceItem:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.elementListItem:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.elementListItem .directory-text-icon:hover {
+    cursor: pointer;
+    color: #000;
+    transition: none;
+}
+
+.copyExp {
+    float: right;
+    padding: 13px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #677581;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.copyExp:hover {
+    color: #000;
+}
+
+.expressionViewSearchBox {
+    font-weight: bold;
+    border-bottom: 1px solid #ededed;
+    padding: 0 10px;
+}
+
+.expressionViewSearchBox.singleview {
+    background-color: #bdade2;
+}
+
+.expressionViewSearchBox.biview {
+    background-color: #a0cecb;
+}
+
+.searchBox {
+    padding: 9px 11px 11px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+
+.desktop-perspective-selector-container {
+    background-color: #fff !important;
+    height: 40px !important;
+    border-right: 1px solid #ededed;
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.desktop-perspective-selector-container .desktop-selector-dropdown {
+    padding: 5px 12px 0 0;
+}
+
+.desktop-perspective-selector-container .selectorLabel {
+    padding: 15px 0 11px 0 !important;
+}
+
+.perspectiveUl {
+    white-space: nowrap;
+    height: inherit;
+    display: block;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
+.perspectiveUl .bktibx {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-left: 3px solid #ebebeb;
+    cursor: pointer;
+/ / margin-left: - 6 px;
+}
+
+.perspectiveUl .bktibx > span {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 11px 15px;
+    display: block;
+    width: 42px;
+    /*border-bottom: 1px solid #f3f3f3;*/
+}
+
+.perspectiveUl .bktibx > span:after {
+    color: #fff;
+    mix-blend-mode: difference;
+}
+
+.perspectiveHotlinkContainer {
+    position: fixed;
+    display: block;
+    background-color: #000;
+    width: 42px;
+    z-index: 999999999999999999999;
+}
+
+.perspectiveUl .bktibx .directory-text-icon {
+    visibility: visible;
+    padding: 10px 7px;
+    display: block !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    left: 0 !important;
+    /*background-color: #dedede;*/
+    transition: none !important;
+}
+
+.perspectiveUl .bktibx .directory-text-icon:hover {
+    background-color: #bebebe;
+}
+
+.perspectiveUl .bktibx > div {
+    display: none;
+    visibility: hidden;
+}
+
+.perspectiveUl .bktibx:hover .perspectiveHotlinkContainer {
+    visibility: visible;
+    display: block;
+}
+
+.noBorder {
+    border: none !important;
+}
+
+.perspectiveSelectorEvaluationItem {
+    min-width: 140px;
+}
+
+.perspectiveSelectorEvaluationItem .checkboxSpan {
+    display: block;
+    width: 15px;
+}
+
+.perspectiveSelectorLabel {
+    display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.perspectivesSelector.activated {
+    color: #677581 !important;
+    pointer-events: auto;
+}
+
+.perspectivesSelector {
+    padding: 0;
+    line-height: 25px !important;
+    color: #d3d3d3;
+    pointer-events: none;
+}
+
+.perspectivesSelector.flaticon-menu:before {
+    margin-left: 0;
+}
+
+/*evaluation View*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    margin: 1%;
+}
+
+th, td {
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+}
+
+.info-tooltip-text ol {
+    padding: 5px 15px 5px 25px;
+}
+
+ol li {
+    list-style-type: decimal !important;
+}
+
+.evaluation-content {
+    height: calc(100% - 40px);
+    overflow: auto;
+    width: 100%;
+}
+
+.attribute-description {
+    color: #000;
+    padding: 0 5px 18px 21px;
+    word-break: break-all;
+}
+
+.checkbox-td {
+    width: 4%;
+    padding: 0 10px 0 21px;
+}
+
+.attributeLibraryTable .checkbox-td {
+    width: 1%;
+    padding: 0 0 0 21px;
+}
+
+.coefficient-td {
+    width: 8%;
+    min-width: 50px;
+}
+
+.editAttributeHotlink-td {
+    width: 4%;
+    cursor: pointer;
+}
+
+.deleteAttributeHotlink-td {
+    width: 4%;
+    cursor: pointer;
+}
+
+.attributeName-td {
+    width: 35%;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.attributeLibraryTable .attributeName-td {
+    width: 40%;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rangeslider-td {
+    width: 25%;
+}
+
+.ratingDescription-td {
+    width: 4%;
+}
+
+.attributeLibraryTable .ratingDescription-td {
+    width: 4%;
+    border-right: 1px solid #d9d9d9 !important;
+}
+
+.artifact-td {
+    width: 4%;
+}
+
+.coefficientInput {
+    width: 8% !important;
+}
+
+.tableHeader {
+    font-weight: bold;
+    color: #000;
+}
+
+.attributeTableContainer {
+    padding: 21px 0 21px 21px;
+}
+
+.evaluationRange {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.selectionFromLibrary {
+    cursor: pointer;
+}
+
+.selectionFromLibrary.active {
+    display: inline-block !important;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.createAttribute {
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.createAttributeDivider {
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 0 0 6px;
+}
+
+.addAttributeFromLibraryPopup, .createAttriToLib {
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.applyPerspective {
+    background-color: #c6c6c6 !important;
+    font-weight: bold !important;
+    color: #dcdcdc !important;
+    cursor: default !important;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.applyPerspective.activated {
+    color: #000 !important;
+    cursor: pointer !important;
+}
+
+/* evaluation view*/
+
+.refreshButton, .refreshAnchorButton {
+    padding: 12px 5px 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.refreshButton:before, .refreshAnchorButton:before {
+    font-size: 14px !important;
+}
+
+/*slider starts here*/
+
+.sliderContainer {
+    width: 500px;
+    height: 40px;
+    background: #ccc;
+    position: relative;
+}
+
+.sliderArrow {
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    position: absolute;
+}
+
+.leftSlideArrow {
+    left: 0;
+}
+
+.rightSlideArrow {
+    right: 0;
+}
+
+.bstimeslider {
+
+    width: calc(100% - 400px);
+    height: 40px;
+    background: #f3f3f3;
+    position: relative;
+    order: 1;
+}
+
+.bktibx {
+
+    float: left;
+    font-size: 18px;
+    width: 45px;
+    display: block;
+    background: #000;
+}
+
+#single_asset_r_type_slider, #bi_slider, #single_shield_element_r_type_slider {
+    position: absolute;
+    left: 0;
+}
+
+.leftArrow {
+
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background-color: #f3f3f3;
+}
+
+.leftArrowTriangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11.5px 0 11.5px 9px;
+    border-color: transparent transparent transparent #979797;
+    margin-top: 8px;
+    float: left;
+}
+
+.leftArrowTriangle:hover {
+    border-color: transparent transparent transparent #000;
+}
+
+.rightArrowTriangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11.5px 9px 11.5px 0;
+    border-color: transparent #979797 transparent transparent;
+    margin-top: 8px;
+    float: right;
+}
+
+.rightArrowTriangle:hover {
+    border-color: transparent #000 transparent transparent;
+}
+
+.rightArrow {
+
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    background-color: #f3f3f3;
+}
+
+.viewContainer {
+    width: calc(100% - 20px);
+    height: 100%;
+    position: absolute;
+    /*left:50%;*/
+    overflow: hidden;
+    margin-left: 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.flaticon-elementType:before {
+    font-size: 14px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+.r_conainer .flaticon-elementType:before {
+    vertical-align: text-top !important;
+    top: -3px;
+    position: relative;
+}
+
+.flaticon-elementType-root:before {
+    font-size: 14px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    vertical-align: text-bottom !important;
+}
+
+.flaticon-asset-element.flaticon-elementType:before, .flaticon-business-asset-element.flaticon-elementType:before {
+    font-size: 10px !important;
+}
+
+.flaticon-asset-type-element.flaticon-elementType:before, .flaticon-business-asset-type-element.flaticon-elementType:before {
+    font-size: 11px !important;
+}
+
+.flaticon-asset-element.flaticon-elementType-root:before, .flaticon-business-asset-element.flaticon-elementType-root:before {
+    font-size: 13px !important;
+}
+
+.flaticon-asset-type-element.flaticon-elementType-root:before, .flaticon-business-asset-type-element.flaticon-elementType-root:before {
+    font-size: 14px !important;
+}
+
+.flaticon-objective-element.flaticon-elementType:before {
+    font-size: 10px !important;
+    vertical-align: text-top !important;
+}
+
+.flaticon-asset-workspace:before {
+    font-size: 25px !important;
+}
+
+.flaticon-attribute-library:before {
+    font-size: 16px !important;
+}
+
+.flaticon-fontSize12:before {
+    font-size: 12px !important;
+    vertical-align: top !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+.flaticon-fontSize10:before {
+    font-size: 10px !important;
+    vertical-align: top !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.flaticon-fontSize11:before {
+    font-size: 11px !important;
+    vertical-align: super !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+.flaticon-fontIconCheckbox {
+    font-size: 10px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+.panel-header .flaticon-fontSize12:before,
+.panel-header .flaticon-fontSize11:before,
+.panel-header .flaticon-fontSize10:before {
+    vertical-align: 0 !important;
+}
+
+.flaticon-add-attribute.findSourceHotlink {
+    vertical-align: 14px !important;
+}
+
+/*slider ends here*/
+
+.biviewSchema {
+    margin-left: 41px;
+}
+
+.expressionDesc {
+    margin: 6px 10px !important;
+}
+
+.selectedName {
+    font-size: 11px;
+    max-width: 340px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.linkClassInEval {
+    font-style: italic !important;
+    font-weight: normal !important;
+}
+
+.treeContainerRingView {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.treeContainerRingView .tree_structure_of_element {
+    position: relative;
+}
+
+.tree_structure_of_element {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.tree_structure_of_element ul li {
+    cursor: pointer;
+    float: left;
+    min-width: calc(100% - 21px);
+    margin-left: 21px;
+    border-left: 1px dotted #979797;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.ringViewWrapper {
+    height: calc(100% - 40px);
+    width: 100%;
+    overflow: auto;
+
+}
+
+.graphicalView {
+    min-width: 650px;
+    height: calc(100% - 110px);
+    min-height: 600px;
+}
+
+.groupGraphicalView {
+    min-width: 650px;
+    height: calc(100% - 40px);
+    min-height: 600px;
+}
+
+.compositeColorPicker {
+    padding: 0 !important;
+    width: 20px;
+}
+
+.levelNum {
+    position: relative;
+}
+
+.levelNum:after {
+    content: attr(levelNum);
+    color: #d8d8d8;
+    position: absolute;
+    right: -1px;
+    top: 5px;
+    font-size: 8px !important;
+    font-weight: bold;
+    font-family: monospace !important;
+}
+
+.levelNum:hover:after {
+    color: #000;
+}
+
+.d-text {
+    margin-left: 6px;
+    font-style: normal;
+}
+
+.d-description {
+    margin-left: 45px;
+    color:#A5A5A5;
+    font-family: 'noto_sansregular', arial, verdana, Helvetica, Sans-serif, serif;
+}
+
+.groupLi {
+    background-color: #fff !important;
+}
+
+.groupLi:hover {
+    background-color: #FFFFFF !important;
+}
+
+.elementTypeSpan {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.treeContainerGroups {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 70px);
+}
+
+.treeContainerWrapper {
+    width: 60%;
+    height: calc(100% - 148px);
+    border: 1px solid #ededed;
+    min-height: 200px;
+}
+
+.canSelect {
+    color: #677581 !important;
+    cursor: pointer;
+}
+
+.cannotSelect {
+    font-size: 11px;
+    color: #eae8d5 !important;
+    cursor: not-allowed;
+}
+
+/*.selected {*/
+/*font-weight: bold;*/
+/*}*/
+.selectedGroup {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.selectedGroupElementsWrapper {
+    width: 39%;
+    height: calc(100% - 148px);
+    border: 1px solid #ededed;
+    border-left: none;
+    min-height: 200px;
+}
+
+.selectedElementsHeading {
+    background-color: #bdade2;
+    font-weight: bold;
+    border-bottom: 1px solid #ededed;
+    padding: 10px;
+    height: 35px;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.selectedElementsHeading.biview {
+    background-color: #a0cecb !important;
+}
+
+.selectedGroupElementsWrapper ul {
+    height: calc(100% - 35px);
+    overflow: auto;
+}
+
+.selectedGroupElementsWrapper li {
+    margin: 10px;
+}
+
+.grpSelector:hover .directory-text-icon {
+    visibility: visible;
+}
+
+.artifacts:hover .directory-text-icon {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.artifacts .directory-text-icon {
+    vertical-align: 0;
+}
+
+.singleViewGroupRingView, .biViewGroupRingView {
+    margin: 0 15px;
+}
+
+.singleViewGroupRingView:before, .biViewGroupRingView:before {
+    vertical-align: middle;
+}
+
+.emptyListClass {
+    position: absolute;
+    padding: 13px 10px 10px 21px;
+}
+
+.hotLinkWrapper {
+    display: inline-flex;
+    vertical-align: 0;
+    margin-left: 15px;
+}
+
+.leftDesktopList .subscriptIcon, .rightDesktopList .subscriptIcon {
+    position: absolute;
+    left: 6px;
+}
+
+.subscriptIcon:before {
+    font-size: 7px !important;
+    margin-left: -3px !important;
+}
+
+.leftDesktopList .subscriptIcon:before, .rightDesktopList .subscriptIcon:before {
+    margin-left: 0 !important;
+}
+
+.directory-text-icon .subscriptIcon:before {
+    font-size: 10px !important;
+    margin-left: 0 !important;
+}
+
+.directory-text-icon .flaticon-asset-type-element.subscriptIcon:before {
+    margin-left: 1px !important;
+}
+
+.directory-text-icon .flaticon-asset-element.subscriptIcon:before {
+    font-size: 9px !important;
+}
+
+.treeContainerExpAssociationView {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 120px);
+}
+
+.r_conainer > .flaticon-unchecked:before {
+    margin-left: -2px !important;
+}
+
+.r_conainer > .flaticon-gps-check:before {
+    margin-left: -2px !important;
+}
+
+.r_conainer > .flaticon-shape {
+    transform: rotate(180deg) translateY(2px);
+    padding-right: 5px;
+    margin-left: 0;
+    padding-left: 3px;
+    margin-right: 0;
+}
+
+.panel-header-container .flaticon-shape {
+    transform: rotate(180deg);
+    padding-left: 8px;
+    vertical-align: 14px;
+}
+
+.ViewsDropDownLi > .flaticon-shape:before {
+    display: inline-block;
+    transform: rotate(180deg);
+    padding: 0 2px 0 5px !important;
+    vertical-align: 0;
+}
+
+.trafficMode, .projectionView {
+    cursor: pointer;
+    padding: 7px 0 7px 5px;
+    opacity: 0.3;
+}
+
+.projectionView.active {
+    opacity: 1;
+}
+
+.circle {
+    font-size: 12px;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 30px;
+    padding-top: 8px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-right: 5px
+}
+
+.circleList {
+    width: 222px;
+    margin: 0 auto 10px auto;
+}
+
+.circleList li {
+    float: left;
+    margin-right: 2px;
+    position: relative;
+}
+
+.unmap-element {
+    /*display: none;*/
+    visibility: hidden
+}
+
+.attributeCheckBox {
+    vertical-align: -2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.attributeCheckBoxWrapper {
+    margin-top: 20px;
+}
+
+.attributeCheckBoxWrapper input[type="checkbox"], .attributeLibraryCheckBoxWrapper input[type="checkbox"] {
+    width: 17px; /*Desired width*/
+    height: 17px; /*Desired height*/
+}
+
+.attributeLibraryCheckBoxWrapper {
+    padding-left: 21px;
+}
+
+.attributeLibraryCheckBoxWrapper label, .attributeCheckBoxWrapper label {
+    color: black;
+    font-size: 15px;
+}
+
+.attributeCheckBoxWrapper label {
+    vertical-align: 1px;
+}
+
+.headerIcon.flaticon-asset-workspace:before {
+    font-size: 20px !important;
+}
+
+.associationCollapsed.expand {
+    margin-left: 5px;
+}
+
+.perspectiveIcon:before {
+    font-size: 14px !important;
+    vertical-align: -3px !important;
+    color: #000;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+.sourceView {
+    padding: 11px 5px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.sortAnchor:before {
+    font-size: 14px !important;
+}
+
+.unSortAnchor, .unSortAss {
+    opacity: 0.2;
+}
+
+.sortIcon {
+    padding: 12px 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.sortIcon:before {
+    font-size: 14px !important;
+}
+
+.iconShadow:before {
+    padding-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.tooltip-bottom {
+    top: 26px !important;
+    bottom: 0;
+}
+
+.tooltip-bottom:before, .tooltip-bottom:after {
+    top: -12px !important;
+    transform: rotate(180deg) !important;
+    bottom: 100% !important;
+}
+
+.createArtifact {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.artifacts {
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+
+.descIcon {
+    margin-top: 0 !important;
+    cursor: pointer;
+}
+
+.artifactName {
+    margin: 0 5px;
+    color: black;
+    cursor: pointer;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.flaticon-file-download:before, .flaticon-file-download:after {
+    font-size: 12px !important;
+    margin: 0 5px;
+}
+
+.dataViewIcon {
+    vertical-align: 16px !important;
+}
+
+.element_refId {
+    font-size: 8px;
+    color: #d8d8d8;
+    margin-left: 3px;
+}
+
+.modeSelectionWrapper {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    margin: 3px 20px 0 0;
+}
+
+.selectedMode.flaticon-direct-mode:before {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.selectedMode.flaticon-expression-mode:before {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.desktop-selected-icon .subscriptIcon:before, .bi_desktop-selected-icon .subscriptIcon:before {
+    color: #000;
+    font-size: 6px !important;
+}
+
+.desktopList .subscriptIcon:before {
+    font-size: 9px !important;
+}
+
+.findSourceHotlink.ss-tick {
+    vertical-align: 12px !important;
+}
+
+.logout {
+    color: white;
+    font-size: 16px;
+    margin: 16px 16px 0 0;
+    background: black;
+}
+
+.forumLogoWrapper {
+    letter-spacing: 1px;
+}
+
+.forumLogo {
+    display: inline-block;
+    transform: rotate(90deg);
+    margin: -6px 0 10px 15px;
+}
+
+.forumLogo:before {
+    color: white;
+    font-size: 55px !important;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.forumLabel, .eCurrencyLabel {
+    display: inline-block;
+    margin: 16px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.eCurrencyLabel {
+    margin: 8px 3px !important;
+}
+
+.cybershieldLabel {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.forumItalic {
+    font-style: italic;
+    margin-left: 3px;
+    font-weight: 100;
+}
+
+.forumText {
+    font-size: 6px;
+    vertical-align: 16px;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.login-head .forumLogo {
+    margin: 0 0 10px 15px;
+}
+
+.login-head .forumLabel {
+    vertical-align: 13px;
+}
+
+.desktopList.flaticon-anz-desktop:before {
+    font-size: 25px;
+}
+
+.desktopList .subscriptIcon {
+    position: absolute;
+    top: 2px;
+    left: 40%;
+    color: white;
+}
+
+.desktop-selected-icon.flaticon-anz-desktop:before, .bi_desktop-selected-icon.flaticon-anz-desktop:before {
+    color: #000;
+    font-size: 20px !important;
+}
+
+.desktop-selected-icon .subscriptIcon, .bi_desktop-selected-icon .subscriptIcon {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.desktopList .subscriptIcon.flaticon-shield-element:before {
+    font-size: 8px !important;
+}
+
+.alertMsgWrapper {
+    overflow: auto;
+    height: calc(100% - 40px);
+}
+
+.alertMsgHeading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #000;
+}
+
+.desktopList.flaticon-map:before, .desktopList.flaticon-eval:before {
+    font-size: 25px;
+}
+
+.desktopList.flaticon-map .subscriptIcon {
+    top: 2px;
+    left: 54%;
+}
+
+.desktopList.flaticon-map .subscriptIcon:before {
+    font-size: 8px !important;
+}
+
+.desktopList.flaticon-eval .subscriptIcon {
+    top: 9px;
+}
+
+.desktop-selected-icon.flaticon-map .subscriptIcon, .bi_desktop-selected-icon.flaticon-map .subscriptIcon {
+    position: absolute;
+    top: 6px;
+    left: 34%;
+}
+
+.desktop-selected-icon.flaticon-map:before, .bi_desktop-selected-icon.flaticon-map:before,
+.desktop-selected-icon.flaticon-eval:before, .bi_desktop-selected-icon.flaticon-eval:before {
+    font-size: 20px !important;
+}
+
+.desktop-selected-icon.flaticon-eval .subscriptIcon, .bi_desktop-selected-icon.flaticon-eval .subscriptIcon {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.toolSelected {
+    cursor: pointer;
+}
+
+.toolModeDropDown {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 31%;
+    z-index: 100;
+    background-color: #f5f5f5;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.toolModeDropDown li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px 5px;
+    font-size: 11px;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.flaticon-roles:before {
+    font-size: 22px !important;
+}
+
+.helpIcon {
+    position: relative;
+    cursor: pointer;
+}
+
+.helpIcon:before {
+    font-size: 15px !important;
+    color: black;
+    margin: 0 5px !important;
+}
+
+.helpText {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 7px;
+}
+
+.helpIcon:hover .helpText {
+    display: inline-block;
+}
+
+.permissionItem {
+    border: 1px solid #ededed;
+    padding: 10px;
+    font-size: 11px !important;
+    position: relative;
+}
+
+.iconCheckBox {
+    padding: 10px;
+}
+
+.permissionLabel {
+    padding: 10px 30px;
+    font-size: 12px;
+}
+
+.permissionWrapper {
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+}
+
+.permissionWrapper input {
+    vertical-align: bottom;
+}
+
+.iconCheckBoxWrapper {
+    padding: 5px;
+}
+
+.ss-edit.dataViewIcon {
+    vertical-align: 12px !important;
+}
+
+.pivot-highlight-bg {
+    background-color: #fbf8f8;
+}
+
+.canDeliver .isApprovalReqClick, .canDeliver .canApproveClick {
+    cursor: pointer;
+}
+
+.default-framework-action.flaticon-advance-search:before {
+    font-size: 20px !important;
+}
+
+.default-framework-action {
+    /* margin-left: auto;*/
+    /*padding-left: 20px;*/
+    color: #dedede;
+    margin-right: 15px;
+}
+
+.default-framework-action:hover {
+    color: #444;
+}
+
+.default-framework-action-active {
+    color: #E6A115;
+}
+
+.default-framework-action-active:hover {
+    color: #E6A115 !important;
+}
+
+.related-framework-action.flaticon-map:before {
+    font-size: 15px !important;
+}
+
+.related-framework-action {
+    /* margin-left: auto;*/
+    /*padding-left: 20px;*/
+    color: #ccc;
+    margin-right: 30px;
+    margin-left: 2px;
+}
+
+.related-framework-action:hover {
+    color: #444;
+}
+
+.related-framework-action-active {
+    color: #E6A115;
+}
+
+.related-framework-action-active:hover {
+    color: #E6A115 !important;
+}
+
+.indentation_number {
+    padding-right: 10px;
+    margin-left: auto;
+    display: none;
+}
+
+.indentation_number.active {
+    display: block;
+}
+
+.rulerimg {
+    height: 46px;
+    margin-top: 2px;
+    cursor: pointer;
+    /*filter: drop-shadow(1px 1px 0px #333) drop-shadow(-1px -1px 0px #333);*/
+}
+
+.loginUserName {
+    margin: 16px 50px 0 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginUserName .flaticon-user:before, .roleActive.flaticon-active-role:before {
+    margin-right: 5px;
+    font-size: 15px !important;
+}
+
+.userRolesSelection {
+    position: relative;
+    margin: 16px 20px 16px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.DropDownContent {
+    position: fixed;
+    overflow: auto;
+    z-index: 1;
+    width: auto;
+    max-height: 30%;
+    margin-right: 10px;
+}
+
+.DropDownContent li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 8px 10px;
+    font-size: 11px;
+    color: black;
+    width: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.DropDownContent li:hover {
+    background-color: #DCDCDC;
+}
+
+.activeRole {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #9c9494;
+    background-color: green;
+    margin-right: 6px;
+}
+
+.notApprovedLabel {
+    margin: 5px;
+    font-size: 8px;
+    color: #a99d9d;
+}
+
+.permissionView-content {
+    overflow: auto;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.permission-heading {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+.secondaryPermissionItem {
+    padding: 10px 0 10px 40px;
+}
+
+.panel-header-container.popup {
+    background-color: #bdade2;
+}
+
+.shield {
+    cursor: pointer;
+}
+
+.shieldDropDown {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 31%;
+    z-index: 100;
+    background-color: #f5f5f5;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.shieldDropDown li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px 5px;
+    font-size: 11px;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.shieldDropDown li:hover {
+    background-color: #DCDCDC;
+}
+
+.replaceClick {
+    cursor: pointer;
+}
+
+.superText {
+    position: relative;
+    top: -5px;
+    right: 3px;
+    color: #A5A5A5;
+}
+
+.desktopList .subscriptIcon.flaticon-standard-element:before {
+    font-size: 10px !important;
+}
+
+.headerIcon .subscriptIcon.flaticon-standard-element:before {
+    font-size: 8px !important;
+}
+
+.headerIcon .flaticon-standard-element .flaticon-shield-element:before {
+    font-size: 5px !important;
+}
+
+.flaticon-shield-element-type:before, .flaticon-standard-element-type {
+    color: black;
+}
+
+.elementListItemLabel .levelNum {
+    margin-right: 5px !important;
+}
+
+.flaticon-standard-workspace:before, .flaticon-shield-workspace:before {
+    font-weight: 100;
+}
+
+.headerMapIcon {
+    color: black;
+    vertical-align: 15px !important;
+    margin-right: 3px;
+}
+
+.headerMapIcon:before {
+    font-size: 15px !important;
+}
+
+.flaticon-tick.levelIcon {
+    font-weight: bold;
+}
+
+.levelIcon:hover,
+.groupIcon:hover,
+.searchWithMappedElements:hover,
+.unSortAss:hover,
+.sourceView:hover,
+.refreshButton:hover,
+.refreshAnchorButton:hover,
+.searchIcon:hover,
+.ResizingIcon:hover,
+.trafficMode:hover,
+.projectionView:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.levelIcon:before, .groupIcon:before {
+    font-size: 19px !important;
+    color: black;
+}
+
+.levelIcon.flaticon-ruler:before {
+    font-size: 12px !important;
+}
+
+.opacityDull {
+    opacity: 0.1;
+}
+
+.groupIcon:before {
+    font-size: 13px !important;
+    font-weight: 100;
+}
+
+.desktop-search-wrapper.selectorLabel {
+    padding: 13px 10px 0 0;
+}
+
+.searchSelector.flaticon-filter-search:before {
+    font-size: 15px;
+}
+
+.ResizingIcon {
+    opacity: 0.4;
+}
+
+.search {
+    float: left;
+    padding: 12px 5px 10px 0;
+}
+
+.search:before {
+    font-size: 12px !important;
+    color: #000;
+}
+
+.search-keyword::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A5A5A5;
+    opacity: 1; /* Firefox */
+}
+
+.search-keyword:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #A5A5A5;
+}
+
+.search-keyword::-ms-input-placeholder { /* Microsoft Edge */
+    color: #A5A5A5;
+}
+
+.shieldSelector .flaticon-standard-workspace:before, .shieldSelector .flaticon-shield-workspace:before,
+.protectionTypeSelector .flaticon-standard-workspace:before, .protectionTypeSelector .flaticon-shield-workspace:before,
+.protectionTypeTwoSelector .flaticon-standard-workspace:before, .protectionTypeTwoSelector .flaticon-shield-workspace:before {
+    vertical-align: 0 !important;
+}
+
+.expressionViewSearchBox .search {
+    padding: 9px 5px 10px 5px;
+}
+
+.expressionViewSearchBox .search:before {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.selectorCheckboxText:before {
+    font-size: 12px;
+}
+
+.selectorCheckboxText .flaticon-active-role:before {
+    font-size: 12px;
+}
+
+.mapToIcon:before {
+    font-size: 10px !important;
+    margin-right: 4px;
+}
+
+.elementIcons:before {
+    font-size: 12px;
+    margin-right: 3px;
+    color: black;
+}
+
+.groupHighLight {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.r_conainer .flaticon-ruler {
+    color: #cdd0d2;
+}
+
+.selector .flaticon-attribute:before {
+    padding-left: 3px;
+}
+
+.flaticon-attribute, .flaticon-attribute-library {
+    font-weight: 100;
+}
+
+.attributeHotlinks.active {
+    color: #000;
+}
+
+.attributeName-td .flaticon-attribute:before {
+    font-size: 14px;
+    padding-right: 5px;
+    color: #000;
+}
+
+.linkDtext ~ .associationCollapsed .d-text {
+    color: #535353;
+    font-weight: bold;
+}
+
+.haveArtifactIcon:before {
+    font-size: 10px;
+    cursor: default;
+}
+
+/* .linkDtextVerticalLine ~ .d-text {
+    color: #535353 !important;
+    font-weight: 100 !important;
+} */
+
+.linkIconDesc, .linkingIcon {
+    padding-left: 10px;
+    letter-spacing: 0;
+    display: inline-block;
+    line-height: 39px;
+}
+
+.linkIconDesc:before, .linkingIcon:before {
+    font-size: 10px !important;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.typeIcon {
+    letter-spacing: 0;
+    max-width: calc(100% - 270px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    line-height: 39px;
+}
+
+.typeIcon .flaticon-expression-element:before {
+    vertical-align: 0 !important;
+}
+
+.linkHotLink:before {
+    font-size: 12px !important;
+}
+
+.flaticon-unlink:before {
+    font-size: 14px;
+    color: #dadada;
+}
+
+.checkbox-map.flaticon-arrow:before {
+    color: #000;
+}
+
+.flaticon-arrow.partialSelection:before {
+    color: #a29999;
+}
+
+.desktop-selector-container.singleview {
+    border-left: 1px solid white;
+}
+
+.dropdownArrow {
+    margin-right: 4px;
+    margin-left: 4px;
+    display: inline-block;
+    transform: rotate(180deg);
+    vertical-align: 2px;
+    cursor: pointer;
+    line-height: 39px;
+    color: grey;
+}
+
+.dropdownArrow:before {
+    font-size: 6px;
+}
+
+.dropdownArrow:hover {
+    color: black;
+}
+
+.desktop-checkbox-wrapper {
+    line-height: 38px;
+    margin-right: 10px;
+    float: right;
+}
+
+.selector.levelSelector, .selector.groupSelector {
+    /* max-width: calc(100% - 40px) !important; */
+    min-width: 60px; !important;
+}
+
+.desktop-selector.equalBy3 {
+    /* max-width: calc((100% - 280px) / 2); */
+    height: 40px;
+}
+
+.desktop-selector .selector {
+    font-family: 'noto_sansregular', arial, verdana, Helvetica, Sans-serif, serif;
+    font-weight: 100;
+}
+
+.flaticon-projection.mapToIcon:before {
+    font-size: 14px !important;
+}
+
+.modeSelectionWrapper .dropdownArrow:hover {
+    color: white;
+}
+
+.selector.levelSelectorProjectionSelected, .selector.groupSelectorProjectionSelected {
+    /* max-width: calc(100% - 43px) !important; */
+    min-width: 50px;
+    float: left;
+}
+
+.hideAndShowSearch {
+    width: 35px;
+    height: 40px;
+    padding: 12px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: none
+}
+
+.searchClear {
+    display: none;
+}
+
+.hideAndShowSearch:hover {
+    background-color: #dadada;
+}
+
+.hideAndShowSearch:before {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.panel-header .levelNum:after {
+    color: #000;
+}
+
+.modeSelectionWrapper .dropdownArrow {
+    color: #fff;
+}
+
+.desktop-selector-dropdown-content > ul {
+    display: inline-block;
+}
+
+.hideAndShowSearch.flaticon-attribute:before {
+    font-size: 15px !important;
+}
+
+.iconWrapper {
+    line-height: 39px;
+    float: left;
+    margin-right: 3px;
+}
+
+.iconWrapper .levelNum:after {
+    color: #000;
+    top: -7px;
+}
+
+/*.shieldSelector {*/
+/*width: calc(100% - 120px);*/
+/*}*/
+
+@-moz-document url-prefix() {
+    .desktop-selector-dropdown-content li {
+        padding: 9px 12px;
+    }
+    .alertBox {
+        top: calc(50% - 100px);
+    }
+}
+
+.dropdown2Icon:before {
+    font-size: 10px !important;
+    margin-right: 4px;
+}
+
+.dropdown2LabelText {
+    color: #000;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.expSelectorClass {
+    font-weight: bold;
+    font-family: arial, serif;
+    letter-spacing: unset !important;
+    display:flex;
+    align-items: center;
+}
+
+.marginLeft {
+    margin-left: 2px;
+}
+
+.expressionModeRow .searchWithMappedElements {
+    margin-left: 8px;
+}
+
+.circleList li {
+    min-width: 35px !important;
+    margin-left: 0 !important;
+    border-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+.projectionRingView.flaticon-shape {
+    margin: 12px 0;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.projectionRingView.flaticon-shape:before {
+    font-size: 14px !important;
+}
+
+.projectionRingView.active {
+    opacity: 1;
+}
+
+.biView.active {
+    opacity: 1;
+}
+
+textarea.descriptionInput:focus{
+    height: auto;
+}
+
+.frameWorkDropDown {
+    padding: 0;
+}
+
+.frameWorkDropDown ul li {
+    background-color: #F5F5F5;
+    border: 1px solid #F2F2F2;
+    padding: 9px;
+    font-size: 11px;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 0;
+    width: 100%;
+}
+
+.frameWorkDropDown li:hover {
+    background-color: #DCDCDC;
+}
+/*.boxShadow {*/
+    /*box-shadow: 0px 1px 14px 4px grey;*/
+/*}*/
+
+/* added by Manish for save button */
+.saveButton, .saveAnchorButton {
+    padding: 12px 5px 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.saveAnchorButton:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.saveButton:before, .saveAnchorButton:before {
+    font-size: 14px !important;
+}
+
+.cnclButton {
+    padding: 13px 5px 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cnclButton:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.cnclButton:before {
+    font-size: 12px !important;
+}
+.paper-clip-2Anchor{
+    padding: 9px 5px 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.3;
+}
+.paper-clip-2Anchor:hover {
+        opacity: 1;
+        color: #000;
+    }
+.paper-clip-2Anchor:before {
+        font-size: 18px !important;
+    }

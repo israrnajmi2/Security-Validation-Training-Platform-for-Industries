@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CyberShield Security Validation Platform</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="fonts/flat-icons/flaticon.css">
+    <script type="text/javascript" src="js/libs/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="js/libs/rangeslider.min.js"></script>
+    <script type="text/javascript" src="js/rztFramework/razorthink.js"></script>
+    <script type="text/javascript" src="js/libs/widget.js"></script>
+    <script type="text/javascript" src="js/home/services/service.js"></script>
+    <script type="text/javascript">
+        function ValidationEvent() {
+            let confirmPassword = document.getElementById("confirmPassword").value;
+            let minNumberofChars = 8;
+            let regularExpression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
+            let phoneno = /^[- +()]*[0-9][- +()0-9]*$/;
+            let data = {};
+            data.emailId = document.getElementById("email").value;
+            data.password = document.getElementById("password").value;
+            data.firstName = document.getElementById("firstName").value;
+            data.lastName = document.getElementById("lastName").value;
+            data.location = document.getElementById("location").value;
+            data.mobileNo = document.getElementById("mobile").value;
+            if (data.emailId === "") {
+                alert("Please enter the email id");
+            }
+            else if (data.emailId.match(/^.+@.+\..+$/) === null) {
+                alert("Invalid Email Address");
+                return;
+            }
+            if (data.password === "") {
+                alert("Please enter the password");
+                return;
+            }
+            else if (data.password.length < minNumberofChars || !regularExpression.test(data.password)) {
+                alert("password should contain at least one Uppercase, one lowercase, one number and one special character");
+                return;
+            }
+            else if (data.password !== confirmPassword) {
+                alert("passwords doesn't match");
+                return;
+            }
+            else if (data.mobileNo !== "" && data.mobileNo.match(phoneno) === null) {
+                alert("Please enter valid mobile number");
+                return;
+            }
+            else {
+                service.createFirstAdminUser(data, function (res, err) {
+                    if (res) {
+                        alert("Successfully Created Admin User");
+                        window.location.href = "/login";
+                    }
+                    else if (err) {
+                        if (err.status === 409) {
+                            alert("Sign up Failed: Duplicate User");
+                        }
+                        else {
+                            alert("Sign up Failed");
+                            window.location.href = "/login";
+                        }
+                    }
+                });
+            }
+        }
+
+        function logoSelection() {
+            //if (location.href.match(/^https:\/\/forum/) !== null || location.href.match(/^https:\/\/twg/) !== null) {
+            //    let elementForum = document.getElementById("forumLogo");
+            //    elementForum.classList.remove("dis-none");
+            //}
+            // else  if (location.href.match(/^https:\/\/ecurrency/) !== null ){
+            //     let element = document.getElementById("eCurrencyLogo");
+            //     element.classList.remove("dis-none");
+            // }
+            //else {
+                let element = document.getElementById("eCurrencyLogo");
+                element.classList.remove("dis-none");
+            //}
+        }
+    </script>
+</head>
+<body onload="logoSelection()">
+<div class="main">
+    <div class="content">
+        <div class="form-container signUpForm" id="signUp">
+            <div class="login-head">
+                <div id="sphericLogo" class="logo dis-none"><a href="#"></a></div>
+                <div id="forumLogo" class="dis-none" style="padding-top:12px;">
+                    <span class="flaticon-medical forumLogo"></span>
+                    <span class="forumLabel">Security Genome Project Forum<span class="forumItalic"><span class="cybershieldLabel">CyberShield</span><span
+                            class="forumText">TM</span></span>
+                                    </span>
+                </div>
+                <div id="eCurrencyLogo" class="dis-none">
+                    <img class="eCurrencyLogo" src="images/vectorpaint1.png" />
+                    <span class="forumLabel ecurrencyLabelLogin"><span class="cybershieldLabel">CyberShield</span><span class="forumItalic">Security Validation Platform<span
+                            class="forumText">TM</span></span>
+                                    </span>
+                </div>
+            </div>
+            <div class="form" onsubmit="ValidationEvent()">
+                <ul>
+                    <li class="mandatory"><input type="text" name="firstName" placeholder="First Name" id="firstName"/>
+                    </li>
+                    <li class="mandatory"><input type="text" name="lastName" placeholder="Last Name" id="lastName"/>
+                    </li>
+                    <li class="mandatory"><input type="text" name="email" placeholder="Email" id="email"/></li>
+                    <li class="mandatory"><input type="password" name="password" placeholder="Password" id="password"/>
+                    </li>
+                    <li class="mandatory"><input type="password" name="confirmPassword" placeholder="Confirm Password"
+                                                 id="confirmPassword"/></li>
+                    <li><input type="text" name="location" placeholder="Location" id="location"/></li>
+                    <li><input type="text" name="mobile" placeholder="Mobile No" id="mobile"/></li>
+                    <li>
+                        <button type="submit" class="loginSubmit" onclick="ValidationEvent()">Create</button>
+                        <a class="signup" href="/login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

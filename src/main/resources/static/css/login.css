@@ -1,0 +1,169 @@
+body {
+    background: #f6f6f6 !important;
+}
+
+header {
+    height: 48px;
+    position: relative;
+    z-index: 1000;
+}
+
+header .logo a {
+    width: 193px;
+    height: 30px;
+    margin: 9px 0 0 26px;
+    background: #fff;
+    display: inline-block;
+}
+
+.content .form-container {
+    bottom: 0;
+    height: 327px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 550px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.content .form-container.signUpForm {
+    height: 590px;
+}
+
+.content .form-container .login-head {
+    height: 86px;
+    border-radius: 4px 4px 0 0;
+}
+
+.content .form-container .login-head .logo a {
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    margin: 29px auto auto;
+    position: absolute;
+    right: 0;
+    width: 220px;
+}
+
+.content .form-container .login-head #eCurrencyLogo {
+    display: inline-block;
+    left: 0;
+    margin: 22px auto auto;
+    position: absolute;
+    right: 0;
+    width: 485px;
+}
+
+.form-password {
+    height: 434px !important;
+}
+
+.signUpForm .form {
+    height: calc(100% - 86px);
+}
+
+.content .form-container .login-head {
+    background: #000;
+    text-align: center;
+
+}
+
+.content .form-container .login-head .logo a {
+    background: url(../images/vectorpaint.svg) no-repeat;
+    background-size: contain;
+}
+
+.content .form-container .login-head .eCurrencyLogo a {
+    background: url(../images/vectorpaint1.png) no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 46px;
+    display: inline-block;
+}
+
+
+.content .form-container .form {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 3px -1px #000000
+}
+
+.content .form-container .form ul li {
+    margin-bottom: 20px;
+}
+
+.content .form-container .form ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.content .form-container .form ul li input {
+    width: 470px;
+    padding: 10px;
+    background-color: rgb(250, 255, 189);
+    border-radius: 2px;
+}
+
+.content .form-container .form ul li button {
+    padding: 8px 25px;
+}
+
+.signup {
+    float: right;
+    margin: 8px 0;
+    color: gray;
+}
+
+.form .hierarchyDropDown {
+    width: 100% !important;
+    left: 0 !important;
+    padding: 5px 0 10px 5px;
+}
+
+.form .hierarchyDropDown li {
+    margin-bottom: 0 !important;
+}
+
+.mandatory {
+    position: relative;
+}
+
+.mandatory:before {
+    content: "*";
+    color: #ec4c4c;
+    position: absolute;
+    display: inline-block;
+    font-size: 13px;
+    right: 18px;
+    top: 16px;
+}
+
+.verticle_dotted_line-long {
+    width: 15px !Important;
+}
+
+.verticle_dotted_line-deactivate {
+    width: 8px;
+    border-top: 1px dotted #979797;
+    float: left;
+    margin: 7px 2px 0 0px;
+}
+
+.verticle_dotted_line-long + .r_conainer {
+    margin-top: 5px;
+}
+
+.errorBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 3px -1px #000000;
+}
+
+.ecurrencyLabelLogin {
+    float: left;
+    margin: 12px 3px!important;
+}

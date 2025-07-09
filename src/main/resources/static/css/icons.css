@@ -1,0 +1,86 @@
+.flaticon-arrow:before, .flaticon-arrow:after, .flaticon-axis-arrows:before, .flaticon-axis-arrows:after {
+    font-size: 14px !important;
+    margin-left: 8px !important;
+}
+
+.flaticon-unmap {
+    white-space: nowrap;
+}
+
+.flaticon-guidance:before, .flaticon-test-procedure:before {
+    font-size: 14px !important;
+}
+
+.flaticon-shape:before, .flaticon-shape:after, .flaticon-round:before, .flaticon-round:after, .flaticon-open-in-tab-2:before, .flaticon-open-in-tab-2:before, .flaticon-add-attribute:before, .flaticon-add-attribute:after, .flaticon-unmap:before, .flaticon-unmap:after, .flaticon-open-tab-2:before, .flaticon-open-tab-2:after {
+    font-size: 12px !important;
+    margin-left: 8px !important;
+}
+
+.flaticon-gps-check:before, .flaticon-gps-check:after {
+    font-size: 16px !important;
+    margin-left: 10px !important;
+    color: #000 !important;
+}
+
+.flaticon-unchecked:before, .flaticon-unchecked:after {
+    font-size: 16px !important;
+    margin-left: 10px !important;
+}
+
+.flaticon-unchecked-asset:before, .flaticon-unchecked-asset:after {
+    font-size: 16px !important;
+    margin-left: 12px !important;
+}
+
+.flaticon-gps:before, .flaticon-gps:after {
+    font-size: 16px !important;
+    margin-left: 12px !important;
+    color: #000 !important;
+}
+
+.flaticon-show-map:before, .flaticon-show-map:after {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px !important;
+    font-weight: 100;
+}
+
+.flaticon-remove:before {
+    margin-left: 0 !important;
+}
+
+.flaticon-worspace:before, .flaticon-desktop:before {
+    margin-left: 0 !important;
+    color: #000 !important;
+    font-size: 30px !important;
+}
+
+.flaticon-desktop:before {
+    font-size: 26px !important;
+}
+
+.flaticon-expression-workspace:before {
+    font-size: 24px !important;
+}
+
+.flaticon-eval-workspace:before {
+    font-size: 24px !important;
+}
+
+.flaticon-source:before {
+    font-size: 16px !important;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    margin-left: 0 !important;
+}
+
+.ss-tick.singleview-evaluation-view, .ss-tick.biview-evaluation-view {
+    float: left !important;
+    margin-top: 0 !important;
+}
+
+.r_conainer .flaticon-arrow {
+    margin-right: 3px;
+}
+

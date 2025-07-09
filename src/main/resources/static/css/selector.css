@@ -1,0 +1,181 @@
+.selector-action-icon {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.3;
+    line-height: 37px;
+    padding: 0 4px;
+}
+
+.selector-action-icon:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.selector-action-icon.active {
+    opacity: 1;
+    color: #000;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .desktop-selector-dropdown {
+        white-space: nowrap;
+    }
+}
+
+.rangeIcon {
+    float: left;
+    padding: 0 8px 0 10px;
+    line-height: 39px;
+    color: black;
+}
+
+.rangeIcon:before {
+    font-size: 12px;
+}
+
+.mapToIcon {
+    float: left;
+    line-height: 39px;
+    color: black;
+}
+
+.newLine {
+    float: left;
+    line-height: 38px;
+    color: black;
+    display: none;
+}
+
+.newLine:before {
+    font-size: 14px;
+}
+
+.searchIcon {
+    color: black;
+    float: left;
+    line-height: 38px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.searchIcon:before {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.levelIcon, .groupIcon {
+    float: left;
+    line-height: 39px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+}
+
+.desktop-selector-dropdown {
+    height: 40px;
+    position: relative;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.selector, .searchWithMappedElements {
+    border: none;
+    line-height: 39px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: arial, serif;
+    font-size: 11px;
+    max-width: 100%;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.desktop-selector-dropdown.twoPartsOfEqualBy3 {
+    position: relative;
+    min-width: 12%;
+    /* max-width: 37%; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.desktop-selector-dropdown.onePartsOfEqualBy3 {
+    position: relative;
+    /* max-width: calc((100% - 37%) / 2); */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.flaticon-levels.levelIcon {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.flaticon-column-view:before {
+    font-size: 15px;
+}
+
+.flaticon-ingest-mapping:before {
+    font-size: 17px;
+}
+
+.mapToIcon.flaticon-expression-element, .mapToIcon.flaticon-asset-element {
+    margin-left: 12px;
+}
+
+.selector.protectionTypeSelector, .selector.protectionTypeTwoSelector {
+    /* margin-left: 10px; */
+}
+
+.paddingLeft {
+    padding-left: 48px;
+}
+
+.selector.searchObject_elementType {
+    width: calc(100% - 40px)!important;
+}
+
+.desktop-anchorSearchSelector-container .desktop-selector-dropdown:nth-child(3) {
+    width: calc(80% - 300px);
+}
+
+.desktop-selector-dropdown.shieldDropDownInEval {
+    /* width: 350px; */
+    white-space: nowrap;
+}
+
+.desktop-selector-dropdown.levelInEval {
+    width: 35%;
+    text-overflow: ellipsis;
+}
+
+.desktop-selector-dropdown.groupInEval {
+    width: calc(100% - (233px + 35%));
+    text-overflow: ellipsis;
+}
+
+.evalGroupSelector {
+    max-width: calc(100% - 40px) !important;
+    min-width: 60px;
+}
+
+.evalLevelSelector {
+    max-width: calc(100% - 150px) !important;
+    min-width: 60px;
+}
+
+.projectionShieldSelector {
+    width: calc(100% - 140px);
+    min-width: 60px;
+}
+
+.shieldSelectorProjectionSelected {
+    width: calc(100% - 150px);
+    min-width: 60px;
+}
+
+.shieldSelectorWrapper {
+    width: calc(100% - 100px);
+    display: inline-block;
+}

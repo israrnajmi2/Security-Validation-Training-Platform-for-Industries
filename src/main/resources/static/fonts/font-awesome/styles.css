@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ss-icon-font";
+  src:url("fonts/ss-icon-font.eot");
+  src:url("fonts/ss-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ss-icon-font.woff") format("woff"),
+    url("fonts/ss-icon-font.ttf") format("truetype"),
+    url("fonts/ss-icon-font.svg#ss-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ss-icon-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ss-"]:before,
+[class*=" ss-"]:before {
+  font-family: "ss-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ss-security-domain-zone:before {
+  content: "\100";
+}
+.ss-copy:before {
+  content: "\101";
+}
+.ss-define:before {
+  content: "\102";
+}
+.ss-delete:before {
+  content: "\103";
+}
+.ss-logout:before {
+  content: "\104";
+}
+.ss-intrinsic-protection-ring:before {
+  content: "\105";
+}
+.ss-host-protection-ring:before {
+  content: "\106";
+}
+.ss-home:before {
+  content: "\107";
+}
+.ss-function-category:before {
+  content: "\108";
+}
+.ss-expand:before {
+  content: "\109";
+}
+.ss-dropdown:before {
+  content: "\110";
+}
+.ss-drill-down-3:before {
+  content: "\112";
+}
+.ss-drill-down-2:before {
+  content: "\113";
+}
+.ss-drill-down-1:before {
+  content: "\114";
+}
+.ss-domain:before {
+  content: "\115";
+}
+.ss-directory-view:before {
+  content: "\116";
+}
+.ss-network-protection-ring:before {
+  content: "\117";
+}
+.ss-network-segment:before {
+  content: "\118";
+}
+.ss-org-unit:before {
+  content: "\119";
+}
+.ss-path-location:before {
+  content: "\120";
+}
+.ss-predictive-protection-ring:before {
+  content: "\121";
+}
+.ss-product-zone:before {
+  content: "\122";
+}
+.ss-product:before {
+  content: "\123";
+}
+.ss-products:before {
+  content: "\124";
+}
+.ss-rating:before {
+  content: "\125";
+}
+.ss-ring:before {
+  content: "\126";
+}
+.ss-search:before {
+  content: "\127";
+}
+.ss-tick:before {
+  content: "\128";
+}
+.ss-single-view:before {
+  content: "\129";
+}
+.ss-settings:before {
+  content: "\130";
+}
+.ss-undo:before {
+  content: "\131";
+}
+.ss-expanded:before {
+  content: "\133";
+}
+.ss-asset:before {
+  content: "\135";
+}
+.ss-asset-1:before {
+  content: "\136";
+}
+.ss-asset-zone:before {
+  content: "\137";
+}
+.ss-bi-view:before {
+  content: "\138";
+}
+.ss-breadcrumb-view:before {
+  content: "\139";
+}
+.ss-cancel:before {
+  content: "\140";
+}
+.ss-checkbox:before {
+  content: "\141";
+}
+.ss-collapse:before {
+  content: "\142";
+}
+.ss-component:before {
+  content: "\143";
+}
+.ss-users:before {
+  content: "\144";
+}
+.ss-arrow:before {
+  content: "\145";
+}
+.ss-source:before {
+  content: "\147";
+}
+.ss-comment:before {
+  content: "\149";
+}
+.ss-description:before {
+  content: "\150";
+}
+.ss-evidence:before {
+  content: "\151";
+}
+.ss-external-link:before {
+  content: "\152";
+}
+.ss-filter:before {
+  content: "\153";
+}
+.ss-notifications:before {
+  content: "\154";
+}
+.ss-power:before {
+  content: "\155";
+}
+.ss-edit:before {
+  content: "\134";
+}
+.ss-arrow-right:before {
+  content: "\132";
+}
+.ss-down-tringle:before {
+  content: "\156";
+}
+.ss-up-tringle:before {
+  content: "\157";
+}
+.ss-add:before {
+  content: "\158";
+}
+.ss-upload:before {
+  content: "\159";
+}
+.ss-anchor:before {
+  content: "\148";
+}
+.ss-pointer:before {
+  content: "\146";
+}
+.ss-compare:before {
+  content: "\61";
+}
+.ss-expand-1:before {
+  content: "\62";
+}
+.ss-collapse-1:before {
+  content: "\63";
+}

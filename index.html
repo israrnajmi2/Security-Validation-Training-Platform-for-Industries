@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>CyberShield Security Validation Platform</title>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="stylesheet" href="/css/global.css" />
+        <link rel="stylesheet" href="/css/home.css" />
+        <link rel="stylesheet" href="/css/login.css" />
+        <link rel="stylesheet" href="/css/icons.css" />
+        <link rel="stylesheet" href="/fonts/flat-icons/flaticon.css" />
+        <script type="text/javascript" src="/js/libs/jquery-1.11.0.js"></script>
+        <script type="text/javascript" src="/js/libs/jquery-ui.js"></script>
+        <script type="text/javascript">
+            function ValidationEvent() {
+                let email = document.getElementById("email").value;
+                let password = document.getElementById("password").value;
+                if (email === "") {
+                    alert("Please enter the Email Id");
+                    return false;
+                }
+                else if ( email !== "root") {
+                    if(email.match(/^.+@.+\..+$/) === null) {
+                        alert("Invalid Email Address");
+                        return false;
+                    }
+                }
+                if (password === "") {
+                    alert("Please enter the password");
+                    return false;
+                }
+                return true;
+            }
+
+            async function logoSelection() {
+                //if (location.href.match(/^https:\/\/forum/) !== null || location.href.match(/^https:\/\/twg/) !== null) {
+                //    let elementForum = document.getElementById("forumLogo");
+                //    elementForum.classList.remove("dis-none");
+                //}
+                // else  if (location.href.match(/^https:\/\/ecurrency/) !== null ){
+                //     let element = document.getElementById("eCurrencyLogo");
+                //     element.classList.remove("dis-none");
+                // }
+                //else {
+                    let element = document.getElementById("eCurrencyLogo");
+                    element.classList.remove("dis-none");
+                //}
+                $.ajax({
+                    type : "GET",
+                    url : "/rest/users_roles/can_show_create_first_user",
+                    success: function(result){
+                        if(result.showCreateFirstUser === true){
+                            let element = document.getElementById("createFirstUser");
+                            element.classList.remove("dis-none");
+                        }
+                    },
+                    error : function(e) {
+                        console.log("ERROR: ", e);
+                    }
+                });
+            }
+        </script>
+            </head>
+            <body onload="logoSelection()">
+                
+                
+                <div class="main">
+                    <div class="content">
+                        <div class="form-container">
+                            <div class="login-head">
+                                <div id="sphericLogo" class="logo dis-none"><a href="#"></a></div>
+                                <div id="forumLogo" class="dis-none" style="padding-top:12px;">
+                                    <span class="flaticon-medical forumLogo"></span>
+                                    <span class="forumLabel">Security Genome Project Forum<span class="forumItalic"><span class="cybershieldLabel">CyberShield</span><span class="forumText">TM</span></span>
+                                    </span>
+                                </div>
+                                <div id="eCurrencyLogo" class="dis-none">
+                                    <img class="eCurrencyLogo" src="images/vectorpaint1.png" />
+                                    <span class="forumLabel ecurrencyLabelLogin"><span class="cybershieldLabel">CyberShield</span><span class="forumText">TM</span><span class="forumItalic">Security Validation Platform</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <form method="post" class="form" onsubmit="return ValidationEvent()" action="/login">
+                                <ul>
+                                    <li><input type="text" name="username" placeholder="Email" id="email" /></li>
+                                    <li><input type="password" name="password" placeholder="Password" id="password" autocomplete="off" /></li>
+                                    <li><button type="submit" class="loginSubmit ">Login</button><a id="createFirstUser" class="signup dis-none" href="/createAdminUser.html">+ Create First User</a></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
